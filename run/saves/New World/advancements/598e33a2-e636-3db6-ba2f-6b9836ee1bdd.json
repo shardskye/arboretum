@@ -1,0 +1,81 @@
+{
+  "arboretum:recipes/building_blocks/chestnut_slab": {
+    "criteria": {
+      "has_chestnut_planks": "2025-08-04 11:09:14 -0400"
+    },
+    "done": true
+  },
+  "arboretum:recipes/redstone/chestnut_door": {
+    "criteria": {
+      "has_chestnut_planks": "2025-08-04 11:09:14 -0400"
+    },
+    "done": true
+  },
+  "arboretum:recipes/redstone/chestnut_pressure_plate": {
+    "criteria": {
+      "has_chestnut_planks": "2025-08-04 11:09:14 -0400"
+    },
+    "done": true
+  },
+  "arboretum:recipes/building_blocks/stripped_chestnut_wood_craft": {
+    "criteria": {
+      "has_stripped_chestnut_log": "2025-08-04 11:09:12 -0400"
+    },
+    "done": true
+  },
+  "arboretum:recipes/misc/chestnut_button_from_chestnut_planks": {
+    "criteria": {
+      "has_chestnut_planks": "2025-08-04 11:09:14 -0400"
+    },
+    "done": true
+  },
+  "arboretum:recipes/building_blocks/chestnut_stairs": {
+    "criteria": {
+      "has_chestnut_planks": "2025-08-04 11:09:14 -0400"
+    },
+    "done": true
+  },
+  "arboretum:recipes/redstone/chestnut_fence_gate": {
+    "criteria": {
+      "has_chestnut_planks": "2025-08-04 11:09:14 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-08-04 11:09:06 -0400"
+    },
+    "done": true
+  },
+  "arboretum:recipes/redstone/chestnut_fence": {
+    "criteria": {
+      "has_chestnut_planks": "2025-08-04 11:09:14 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2025-08-04 11:09:07 -0400"
+    },
+    "done": false
+  },
+  "arboretum:recipes/redstone/chestnut_trapdoor": {
+    "criteria": {
+      "has_chestnut_planks": "2025-08-04 11:09:14 -0400"
+    },
+    "done": true
+  },
+  "arboretum:recipes/building_blocks/chestnut_wood_craft": {
+    "criteria": {
+      "has_chestnut_log": "2025-08-04 11:09:12 -0400"
+    },
+    "done": true
+  },
+  "arboretum:recipes/building_blocks/chestnut_planks": {
+    "criteria": {
+      "has_logs": "2025-08-04 11:09:12 -0400"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
+}
