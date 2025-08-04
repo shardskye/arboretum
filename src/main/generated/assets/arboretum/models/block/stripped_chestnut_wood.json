@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "arboretum:block/stripped_chestnut_log",
+    "side": "arboretum:block/stripped_chestnut_log"
+  }
+}

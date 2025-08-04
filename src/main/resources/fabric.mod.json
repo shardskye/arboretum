@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "arboretum",
+	"version": "${version}",
+	"name": "Arboretum",
+	"description": "A biome mod specializing in trees and creating beautiful environments.",
+	"authors": [
+		"shardskye"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/arboretum/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.shardskye.arboretum.Arboretum"
+		],
+		"fabric-datagen": [
+			"net.shardskye.arboretum.ArboretumDataGenerator"
+		],
+		"client": [
+			"net.shardskye.arboretum.ArboretumClient"
+		]
+	},
+	"mixins": [
+		"arboretum.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
