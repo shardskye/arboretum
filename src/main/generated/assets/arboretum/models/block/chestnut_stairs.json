@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "arboretum:block/chestnut_planks",
+    "side": "arboretum:block/chestnut_planks",
+    "top": "arboretum:block/chestnut_planks"
+  }
+}
