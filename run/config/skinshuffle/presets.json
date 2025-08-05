@@ -1,0 +1,15 @@
+{
+  "chosenPreset": 0,
+  "apiPreset": 0,
+  "loadedPresets": [
+    {
+      "skin": {
+        "skin_name": "1582032830",
+        "model": "slim",
+        "type": "skinshuffle:config"
+      },
+      "name": "Player141",
+      "keybindId": 1
+    }
+  ]
+}
