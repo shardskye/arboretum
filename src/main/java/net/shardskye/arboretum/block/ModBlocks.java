@@ -51,6 +51,27 @@ public class ModBlocks {
     public static final Block CEDAR_PLANKS = registerBlock("cedar_planks",
             new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
 
+    public static final Block CEDAR_STAIRS = registerBlock("cedar_stairs",
+            new StairsBlock(ModBlocks.CEDAR_PLANKS.getDefaultState(),
+                    AbstractBlock.Settings.copy(Blocks.OAK_STAIRS)));
+    public static final Block CEDAR_SLAB = registerBlock("cedar_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.OAK_SLAB)));
+
+    public static final Block CEDAR_FENCE = registerBlock("cedar_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(Blocks.OAK_STAIRS)));
+    public static final Block CEDAR_FENCE_GATE = registerBlock("cedar_fence_gate",
+            new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.copy(Blocks.OAK_FENCE)));
+
+    public static final Block CEDAR_DOOR = registerBlock("cedar_door",
+            new DoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(Blocks.OAK_DOOR)));
+    public static final Block CEDAR_TRAPDOOR = registerBlock("cedar_trapdoor",
+            new TrapdoorBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(Blocks.OAK_TRAPDOOR)));
+
+    public static final Block CEDAR_BUTTON = registerBlock("cedar_button",
+            new ButtonBlock(BlockSetType.OAK, 10, AbstractBlock.Settings.copy(Blocks.OAK_BUTTON)));
+    public static final Block CEDAR_PRESSURE_PLATE = registerBlock("cedar_pressure_plate",
+            new PressurePlateBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(Blocks.OAK_PRESSURE_PLATE)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(Arboretum.MOD_ID, name), block);
@@ -84,6 +105,14 @@ public class ModBlocks {
             fabricItemGroupEntries.add(ModBlocks.CHESTNUT_PRESSURE_PLATE);
             fabricItemGroupEntries.add(ModBlocks.CHESTNUT_BUTTON);
             fabricItemGroupEntries.add(ModBlocks.CEDAR_PLANKS);
+            fabricItemGroupEntries.add(ModBlocks.CEDAR_STAIRS);
+            fabricItemGroupEntries.add(ModBlocks.CEDAR_SLAB);
+            fabricItemGroupEntries.add(ModBlocks.CEDAR_FENCE);
+            fabricItemGroupEntries.add(ModBlocks.CEDAR_FENCE_GATE);
+            fabricItemGroupEntries.add(ModBlocks.CEDAR_DOOR);
+            fabricItemGroupEntries.add(ModBlocks.CEDAR_TRAPDOOR);
+            fabricItemGroupEntries.add(ModBlocks.CEDAR_PRESSURE_PLATE);
+            fabricItemGroupEntries.add(ModBlocks.CEDAR_BUTTON);
         });
     }
 }

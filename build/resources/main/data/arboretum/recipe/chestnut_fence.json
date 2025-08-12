@@ -1,15 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
+  "category": "misc",
   "key": {
     "#": {
+      "item": "minecraft:stick"
+    },
+    "W": {
       "item": "arboretum:chestnut_planks"
     }
   },
   "pattern": [
-    "##",
-    "##",
-    "##"
+    "W#W",
+    "W#W"
   ],
   "result": {
     "count": 3,

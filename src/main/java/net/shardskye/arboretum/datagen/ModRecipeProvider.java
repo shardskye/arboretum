@@ -20,6 +20,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(RecipeExporter recipeExporter) {
+
+        // CHESTNUT
+
         offerPlanksRecipe(recipeExporter, ModBlocks.CHESTNUT_PLANKS, ModTags.Items.CHESTNUT_LOGS, 4);
         offerPressurePlateRecipe(recipeExporter, ModBlocks.CHESTNUT_PRESSURE_PLATE, ModBlocks.CHESTNUT_PLANKS);
         offerSlabRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHESTNUT_SLAB, ModBlocks.CHESTNUT_PLANKS);
@@ -27,8 +30,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerSingleOutputShapelessRecipe(recipeExporter, ModBlocks.CHESTNUT_BUTTON, ModBlocks.CHESTNUT_PLANKS, "button");
         createTrapdoorRecipe(ModBlocks.CHESTNUT_TRAPDOOR, Ingredient.ofItems(ModBlocks.CHESTNUT_PLANKS)).criterion(hasItem(ModBlocks.CHESTNUT_PLANKS), conditionsFromItem(ModBlocks.CHESTNUT_PLANKS)).offerTo(recipeExporter, Identifier.of("chestnut_trapdoor"));
         createDoorRecipe(ModBlocks.CHESTNUT_DOOR, Ingredient.ofItems(ModBlocks.CHESTNUT_PLANKS)).criterion(hasItem(ModBlocks.CHESTNUT_PLANKS), conditionsFromItem(ModBlocks.CHESTNUT_PLANKS)).offerTo(recipeExporter, Identifier.of("chestnut_door"));
-        createDoorRecipe(ModBlocks.CHESTNUT_FENCE_GATE, Ingredient.ofItems(ModBlocks.CHESTNUT_PLANKS)).criterion(hasItem(ModBlocks.CHESTNUT_PLANKS), conditionsFromItem(ModBlocks.CHESTNUT_PLANKS)).offerTo(recipeExporter, Identifier.of("chestnut_fence_gate"));
-        createDoorRecipe(ModBlocks.CHESTNUT_FENCE, Ingredient.ofItems(ModBlocks.CHESTNUT_PLANKS)).criterion(hasItem(ModBlocks.CHESTNUT_PLANKS), conditionsFromItem(ModBlocks.CHESTNUT_PLANKS)).offerTo(recipeExporter, Identifier.of("chestnut_fence"));
+        createFenceGateRecipe(ModBlocks.CHESTNUT_FENCE_GATE, Ingredient.ofItems(ModBlocks.CHESTNUT_PLANKS)).criterion(hasItem(ModBlocks.CHESTNUT_PLANKS), conditionsFromItem(ModBlocks.CHESTNUT_PLANKS)).offerTo(recipeExporter, Identifier.of("chestnut_fence_gate"));
+        createFenceRecipe(ModBlocks.CHESTNUT_FENCE, Ingredient.ofItems(ModBlocks.CHESTNUT_PLANKS)).criterion(hasItem(ModBlocks.CHESTNUT_PLANKS), conditionsFromItem(ModBlocks.CHESTNUT_PLANKS)).offerTo(recipeExporter, Identifier.of("chestnut_fence"));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STRIPPED_CHESTNUT_WOOD, 3)
                 .pattern("RR")
@@ -43,5 +46,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(Character.valueOf('R'), ModBlocks.CHESTNUT_LOG)
                 .criterion(hasItem(ModBlocks.CHESTNUT_LOG), conditionsFromItem(ModBlocks.CHESTNUT_LOG))
                 .offerTo(recipeExporter, Identifier.of("chestnut_wood_craft"));
+
+        // CEDAR
+
+        offerPressurePlateRecipe(recipeExporter, ModBlocks.CEDAR_PRESSURE_PLATE, ModBlocks.CEDAR_PLANKS);
+        offerSlabRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CEDAR_SLAB, ModBlocks.CEDAR_PLANKS);
+        createStairsRecipe(ModBlocks.CEDAR_STAIRS, Ingredient.ofItems(ModBlocks.CEDAR_PLANKS)).criterion(hasItem(ModBlocks.CEDAR_PLANKS), conditionsFromItem(ModBlocks.CEDAR_PLANKS)).offerTo(recipeExporter, Identifier.of("cedar_stairs"));
+        offerSingleOutputShapelessRecipe(recipeExporter, ModBlocks.CEDAR_BUTTON, ModBlocks.CEDAR_PLANKS, "button");
+        createTrapdoorRecipe(ModBlocks.CEDAR_TRAPDOOR, Ingredient.ofItems(ModBlocks.CEDAR_PLANKS)).criterion(hasItem(ModBlocks.CEDAR_PLANKS), conditionsFromItem(ModBlocks.CEDAR_PLANKS)).offerTo(recipeExporter, Identifier.of("cedar_trapdoor"));
+        createDoorRecipe(ModBlocks.CEDAR_DOOR, Ingredient.ofItems(ModBlocks.CEDAR_PLANKS)).criterion(hasItem(ModBlocks.CEDAR_PLANKS), conditionsFromItem(ModBlocks.CEDAR_PLANKS)).offerTo(recipeExporter, Identifier.of("cedar_door"));
+        createFenceGateRecipe(ModBlocks.CEDAR_FENCE_GATE, Ingredient.ofItems(ModBlocks.CEDAR_PLANKS)).criterion(hasItem(ModBlocks.CEDAR_PLANKS), conditionsFromItem(ModBlocks.CEDAR_PLANKS)).offerTo(recipeExporter, Identifier.of("cedar_fence_gate"));
+        createFenceGateRecipe(ModBlocks.CEDAR_FENCE, Ingredient.ofItems(ModBlocks.CEDAR_PLANKS)).criterion(hasItem(ModBlocks.CEDAR_PLANKS), conditionsFromItem(ModBlocks.CEDAR_PLANKS)).offerTo(recipeExporter, Identifier.of("cedar_fence"));
+
     }
 }

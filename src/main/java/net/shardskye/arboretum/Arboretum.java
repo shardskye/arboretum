@@ -36,5 +36,13 @@ public class Arboretum implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CHESTNUT_BUTTON, 5, 5);
 
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_PLANKS, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_STAIRS, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_SLAB, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_FENCE, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_FENCE_GATE, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_PRESSURE_PLATE, 5, 5);
+        //FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_DOOR, 5, 5);
+        //FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_TRAPDOOR, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_BUTTON, 5, 5);
 	}
 }

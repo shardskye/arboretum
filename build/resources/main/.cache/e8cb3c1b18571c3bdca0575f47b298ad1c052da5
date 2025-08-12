@@ -1,13 +1,13 @@
-// 1.21.1	2025-08-11T20:09:52.3540862	Arboretum/Tags for minecraft:block
-8b5a9911a5d2bc5abe4ae048cc84b2ff0b15af94 data\minecraft\tags\block\wooden_stairs.json
-0839097c60f2c1012c6d055d79b065f94487e486 data\minecraft\tags\block\wooden_pressure_plates.json
-135d026373de3927fe891f37dbb9c7be29aab179 data\minecraft\tags\block\wooden_buttons.json
+// 1.21.1	2025-08-11T21:57:30.6518068	Arboretum/Tags for minecraft:block
+290d8204fd892f1cb64dcfc671e2715cbf9a938e data\minecraft\tags\block\wooden_stairs.json
+48cdc5a21cd6d23533237b7953085c4bef9b086f data\minecraft\tags\block\wooden_pressure_plates.json
+097c24b7d6980f5c9bdbf7d9028a9062b969d4fa data\minecraft\tags\block\wooden_buttons.json
 77d2aa3ca7eca70e39aa94cd2559a1c279d4ad0b data\minecraft\tags\block\logs_that_burn.json
-4d811bcc4cd1996cb04351b719f8b6a03770a115 data\minecraft\tags\block\fence_gates.json
+c1a531741f476daceedb1e2d9c0aad373a816cdb data\minecraft\tags\block\fence_gates.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\minecraft\tags\block\mineable\hoe.json
-643431214dbd7ed6e1a4b1dd82256f18419fbc22 data\minecraft\tags\block\mineable\axe.json
-80e957c9d0844ee80da4d8e853992a5b4bc3d292 data\minecraft\tags\block\wooden_slabs.json
-eb8cd0ee3e1120a6d09a51d59fb7c4a700490d31 data\minecraft\tags\block\wooden_doors.json
-fdcb7060d1d59d8dac477b820aeb993114f54b72 data\minecraft\tags\block\wooden_trapdoors.json
-56d88eef46c0b16092ea3b70dbe1998fc4f3fb1e data\minecraft\tags\block\wooden_fences.json
+141ffa2f2658960b9d61c7247b6176de002a14e7 data\minecraft\tags\block\mineable\axe.json
+3cb81def8a1353c35961b84cbd205a929f116856 data\minecraft\tags\block\wooden_doors.json
+652e1468f742ec95150d499136881c8980328f04 data\minecraft\tags\block\wooden_slabs.json
+63e79ff8acd64d1668f551ccb6c2450fc21e5beb data\minecraft\tags\block\wooden_trapdoors.json
 68a78c52a8301779c05acc46243d844c409c62f7 data\minecraft\tags\block\planks.json
+48e043e8a84299fc10b6b4089f719fb22bf34e01 data\minecraft\tags\block\wooden_fences.json

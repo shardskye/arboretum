@@ -13,6 +13,14 @@
   "block.arboretum.stripped_chestnut_log": "Stripped Chestnut Log",
   "block.arboretum.stripped_chestnut_wood": "Stripped Chestnut Wood",
   "block.arboretum.cedar_planks": "Cedar Planks",
+  "block.arboretum.cedar_slab": "Cedar Slab",
+  "block.arboretum.cedar_stairs": "Cedar Stairs",
+  "block.arboretum.cedar_fence": "Cedar Fence",
+  "block.arboretum.cedar_fence_gate": "Cedar Fence Gate",
+  "block.arboretum.cedar_pressure_plate": "Cedar Pressure Plate",
+  "block.arboretum.cedar_button": "Cedar Button",
+  "block.arboretum.cedar_door": "Cedar Door",
+  "block.arboretum.cedar_trapdoor": "Cedar Trapdoor",
 
   "itemgroup.arboretum.arboretum_item_group": "Arboretum"
 }

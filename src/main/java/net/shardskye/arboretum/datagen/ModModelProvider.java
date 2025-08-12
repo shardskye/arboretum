@@ -37,6 +37,18 @@ public class ModModelProvider extends FabricModelProvider {
 
         BlockStateModelGenerator.BlockTexturePool cedarPlankPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CEDAR_PLANKS);
 
+        cedarPlankPool.stairs(ModBlocks.CEDAR_STAIRS);
+        cedarPlankPool.slab(ModBlocks.CEDAR_SLAB);
+
+        cedarPlankPool.fence(ModBlocks.CEDAR_FENCE);
+        cedarPlankPool.fenceGate(ModBlocks.CEDAR_FENCE_GATE);
+
+        cedarPlankPool.pressurePlate(ModBlocks.CEDAR_PRESSURE_PLATE);
+        cedarPlankPool.button(ModBlocks.CEDAR_BUTTON);
+
+        blockStateModelGenerator.registerDoor(ModBlocks.CEDAR_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.CEDAR_TRAPDOOR);
+
     }
 
     @Override
