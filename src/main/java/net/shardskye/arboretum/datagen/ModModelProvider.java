@@ -13,6 +13,9 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
+
+        // CHESTNUT
+
         BlockStateModelGenerator.BlockTexturePool chestnutPlankPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHESTNUT_PLANKS);
 
         chestnutPlankPool.stairs(ModBlocks.CHESTNUT_STAIRS);
@@ -29,6 +32,11 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerLog(ModBlocks.CHESTNUT_LOG).log(ModBlocks.CHESTNUT_LOG).wood(ModBlocks.CHESTNUT_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_CHESTNUT_LOG).log(ModBlocks.STRIPPED_CHESTNUT_LOG).wood(ModBlocks.STRIPPED_CHESTNUT_WOOD);
+
+        // CEDAR
+
+        BlockStateModelGenerator.BlockTexturePool cedarPlankPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CEDAR_PLANKS);
+
     }
 
     @Override

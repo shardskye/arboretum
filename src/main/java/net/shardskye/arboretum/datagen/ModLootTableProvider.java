@@ -14,6 +14,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
+        // CHESTNUT
+
         addDrop(ModBlocks.CHESTNUT_LOG);
         addDrop(ModBlocks.STRIPPED_CHESTNUT_LOG);
         addDrop(ModBlocks.CHESTNUT_WOOD);
@@ -31,5 +33,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.CHESTNUT_DOOR, doorDrops(ModBlocks.CHESTNUT_DOOR));
         addDrop(ModBlocks.CHESTNUT_TRAPDOOR);
+
+        // CEDAR
+
+        addDrop(ModBlocks.CEDAR_PLANKS);
     }
 }

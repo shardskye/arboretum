@@ -1,5 +1,18 @@
 {
   "block.arboretum.chestnut_planks": "Chestnut Planks",
+  "block.arboretum.chestnut_slab": "Chestnut Slab",
+  "block.arboretum.chestnut_stairs": "Chestnut Stairs",
+  "block.arboretum.chestnut_fence": "Chestnut Fence",
+  "block.arboretum.chestnut_fence_gate": "Chestnut Fence Gate",
+  "block.arboretum.chestnut_pressure_plate": "Chestnut Pressure Plate",
+  "block.arboretum.chestnut_button": "Chestnut Button",
+  "block.arboretum.chestnut_door": "Chestnut Door",
+  "block.arboretum.chestnut_trapdoor": "Chestnut Trapdoor",
+  "block.arboretum.chestnut_log": "Chestnut Log",
+  "block.arboretum.chestnut_wood": "Chestnut Wood",
+  "block.arboretum.stripped_chestnut_log": "Stripped Chestnut Log",
+  "block.arboretum.stripped_chestnut_wood": "Stripped Chestnut Wood",
+  "block.arboretum.cedar_planks": "Cedar Planks",
 
   "itemgroup.arboretum.arboretum_item_group": "Arboretum"
 }

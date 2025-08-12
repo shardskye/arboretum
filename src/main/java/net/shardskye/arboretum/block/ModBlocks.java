@@ -12,6 +12,8 @@ import net.minecraft.util.Identifier;
 import net.shardskye.arboretum.Arboretum;
 
 public class ModBlocks {
+    // CHESTNUT
+
     public static final Block CHESTNUT_LOG = registerBlock("chestnut_log",
             new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG)));
     public static final Block CHESTNUT_WOOD = registerBlock("chestnut_wood",
@@ -44,6 +46,10 @@ public class ModBlocks {
     public static final Block CHESTNUT_PRESSURE_PLATE = registerBlock("chestnut_pressure_plate",
             new PressurePlateBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(Blocks.OAK_PRESSURE_PLATE)));
 
+    // CEDAR
+
+    public static final Block CEDAR_PLANKS = registerBlock("cedar_planks",
+            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -60,12 +66,14 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(ModBlocks.CHESTNUT_LOG);
-            fabricItemGroupEntries.add(ModBlocks.STRIPPED_CHESTNUT_LOG);
             fabricItemGroupEntries.add(ModBlocks.CHESTNUT_WOOD);
-            fabricItemGroupEntries.add(ModBlocks.STRIPPED_CHESTNUT_WOOD);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
+            fabricItemGroupEntries.add(ModBlocks.CHESTNUT_LOG);
+            fabricItemGroupEntries.add(ModBlocks.CHESTNUT_WOOD);
+            fabricItemGroupEntries.add(ModBlocks.STRIPPED_CHESTNUT_LOG);
+            fabricItemGroupEntries.add(ModBlocks.STRIPPED_CHESTNUT_WOOD);
             fabricItemGroupEntries.add(ModBlocks.CHESTNUT_PLANKS);
             fabricItemGroupEntries.add(ModBlocks.CHESTNUT_STAIRS);
             fabricItemGroupEntries.add(ModBlocks.CHESTNUT_SLAB);
@@ -75,6 +83,7 @@ public class ModBlocks {
             fabricItemGroupEntries.add(ModBlocks.CHESTNUT_TRAPDOOR);
             fabricItemGroupEntries.add(ModBlocks.CHESTNUT_PRESSURE_PLATE);
             fabricItemGroupEntries.add(ModBlocks.CHESTNUT_BUTTON);
+            fabricItemGroupEntries.add(ModBlocks.CEDAR_PLANKS);
         });
     }
 }

@@ -31,6 +31,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CHESTNUT_TRAPDOOR);
                         entries.add(ModBlocks.CHESTNUT_BUTTON);
                         entries.add(ModBlocks.CHESTNUT_PRESSURE_PLATE);
+                        entries.add(ModBlocks.CEDAR_PLANKS);
                     }).build());
 
 

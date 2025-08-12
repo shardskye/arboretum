@@ -34,5 +34,7 @@ public class Arboretum implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CHESTNUT_DOOR, 5, 5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CHESTNUT_TRAPDOOR, 5, 5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CHESTNUT_BUTTON, 5, 5);
+
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_PLANKS, 5, 5);
 	}
 }
