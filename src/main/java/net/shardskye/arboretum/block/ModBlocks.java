@@ -48,6 +48,14 @@ public class ModBlocks {
 
     // CEDAR
 
+    public static final Block CEDAR_LOG = registerBlock("cedar_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG)));
+    public static final Block CEDAR_WOOD = registerBlock("cedar_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD)));
+    public static final Block STRIPPED_CEDAR_LOG = registerBlock("stripped_cedar_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG)));
+    public static final Block STRIPPED_CEDAR_WOOD = registerBlock("stripped_cedar_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG)));
     public static final Block CEDAR_PLANKS = registerBlock("cedar_planks",
             new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
 
@@ -104,6 +112,10 @@ public class ModBlocks {
             fabricItemGroupEntries.add(ModBlocks.CHESTNUT_TRAPDOOR);
             fabricItemGroupEntries.add(ModBlocks.CHESTNUT_PRESSURE_PLATE);
             fabricItemGroupEntries.add(ModBlocks.CHESTNUT_BUTTON);
+            fabricItemGroupEntries.add(ModBlocks.CEDAR_LOG);
+            fabricItemGroupEntries.add(ModBlocks.CEDAR_WOOD);
+            fabricItemGroupEntries.add(ModBlocks.STRIPPED_CEDAR_LOG);
+            fabricItemGroupEntries.add(ModBlocks.STRIPPED_CEDAR_WOOD);
             fabricItemGroupEntries.add(ModBlocks.CEDAR_PLANKS);
             fabricItemGroupEntries.add(ModBlocks.CEDAR_STAIRS);
             fabricItemGroupEntries.add(ModBlocks.CEDAR_SLAB);

@@ -22,6 +22,9 @@ public class Arboretum implements ModInitializer {
 		StrippableBlockRegistry.register(ModBlocks.CHESTNUT_LOG, ModBlocks.STRIPPED_CHESTNUT_LOG);
 		StrippableBlockRegistry.register(ModBlocks.CHESTNUT_WOOD, ModBlocks.STRIPPED_CHESTNUT_WOOD);
 
+        StrippableBlockRegistry.register(ModBlocks.CEDAR_LOG, ModBlocks.STRIPPED_CEDAR_LOG);
+        StrippableBlockRegistry.register(ModBlocks.CEDAR_WOOD, ModBlocks.STRIPPED_CEDAR_WOOD);
+
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CHESTNUT_LOG, 5, 5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_CHESTNUT_WOOD, 5, 5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_CHESTNUT_LOG, 5, 5);
@@ -35,14 +38,18 @@ public class Arboretum implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CHESTNUT_TRAPDOOR, 5, 5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CHESTNUT_BUTTON, 5, 5);
 
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_LOG, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_CEDAR_WOOD, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_CEDAR_LOG, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_WOOD, 5, 5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_PLANKS, 5, 5);
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_STAIRS, 5, 5);
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_SLAB, 5, 5);
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_FENCE, 5, 5);
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_FENCE_GATE, 5, 5);
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_PRESSURE_PLATE, 5, 5);
-        //FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_DOOR, 5, 5);
-        //FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_TRAPDOOR, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_DOOR, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_TRAPDOOR, 5, 5);
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_BUTTON, 5, 5);
 	}
 }

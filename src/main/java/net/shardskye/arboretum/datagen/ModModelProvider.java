@@ -49,6 +49,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerDoor(ModBlocks.CEDAR_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.CEDAR_TRAPDOOR);
 
+        blockStateModelGenerator.registerLog(ModBlocks.CEDAR_LOG).log(ModBlocks.CEDAR_LOG).wood(ModBlocks.CEDAR_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_CEDAR_LOG).log(ModBlocks.STRIPPED_CEDAR_LOG).wood(ModBlocks.STRIPPED_CEDAR_WOOD);
+
     }
 
     @Override

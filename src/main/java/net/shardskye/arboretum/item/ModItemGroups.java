@@ -31,6 +31,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CHESTNUT_TRAPDOOR);
                         entries.add(ModBlocks.CHESTNUT_BUTTON);
                         entries.add(ModBlocks.CHESTNUT_PRESSURE_PLATE);
+                        entries.add(ModBlocks.CEDAR_LOG);
+                        entries.add(ModBlocks.STRIPPED_CEDAR_LOG);
+                        entries.add(ModBlocks.CEDAR_WOOD);
+                        entries.add(ModBlocks.STRIPPED_CEDAR_WOOD);
                         entries.add(ModBlocks.CEDAR_PLANKS);
                         entries.add(ModBlocks.CEDAR_STAIRS);
                         entries.add(ModBlocks.CEDAR_SLAB);

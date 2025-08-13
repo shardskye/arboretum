@@ -49,6 +49,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         // CEDAR
 
+        offerPlanksRecipe(recipeExporter, ModBlocks.CEDAR_PLANKS, ModTags.Items.CEDAR_LOGS, 4);
         offerPressurePlateRecipe(recipeExporter, ModBlocks.CEDAR_PRESSURE_PLATE, ModBlocks.CEDAR_PLANKS);
         offerSlabRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CEDAR_SLAB, ModBlocks.CEDAR_PLANKS);
         createStairsRecipe(ModBlocks.CEDAR_STAIRS, Ingredient.ofItems(ModBlocks.CEDAR_PLANKS)).criterion(hasItem(ModBlocks.CEDAR_PLANKS), conditionsFromItem(ModBlocks.CEDAR_PLANKS)).offerTo(recipeExporter, Identifier.of("cedar_stairs"));

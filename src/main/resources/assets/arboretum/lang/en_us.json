@@ -21,6 +21,10 @@
   "block.arboretum.cedar_button": "Cedar Button",
   "block.arboretum.cedar_door": "Cedar Door",
   "block.arboretum.cedar_trapdoor": "Cedar Trapdoor",
+  "block.arboretum.cedar_log": "Cedar Log",
+  "block.arboretum.cedar_wood": "Cedar Wood",
+  "block.arboretum.stripped_cedar_log": "Stripped Cedar Log",
+  "block.arboretum.stripped_cedar_wood": "Stripped Cedar Wood",
 
   "itemgroup.arboretum.arboretum_item_group": "Arboretum"
 }

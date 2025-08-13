@@ -19,7 +19,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CHESTNUT_LOG)
                 .add(ModBlocks.STRIPPED_CHESTNUT_LOG)
                 .add(ModBlocks.CHESTNUT_WOOD)
-                .add(ModBlocks.STRIPPED_CHESTNUT_WOOD);
+                .add(ModBlocks.STRIPPED_CHESTNUT_WOOD)
+                .add(ModBlocks.CEDAR_LOG)
+                .add(ModBlocks.STRIPPED_CEDAR_LOG)
+                .add(ModBlocks.CEDAR_WOOD)
+                .add(ModBlocks.STRIPPED_CEDAR_WOOD);
 
         getOrCreateTagBuilder(BlockTags.PLANKS)
                 .add(ModBlocks.CHESTNUT_PLANKS)
@@ -74,7 +78,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CEDAR_PRESSURE_PLATE)
                 .add(ModBlocks.CEDAR_BUTTON)
                 .add(ModBlocks.CEDAR_DOOR)
-                .add(ModBlocks.CEDAR_TRAPDOOR);
+                .add(ModBlocks.CEDAR_TRAPDOOR)
+                .add(ModBlocks.CEDAR_LOG)
+                .add(ModBlocks.STRIPPED_CEDAR_LOG)
+                .add(ModBlocks.CEDAR_WOOD)
+                .add(ModBlocks.STRIPPED_CEDAR_WOOD);
 
         getOrCreateTagBuilder(BlockTags.HOE_MINEABLE);
 

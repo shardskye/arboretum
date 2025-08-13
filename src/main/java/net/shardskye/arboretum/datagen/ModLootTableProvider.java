@@ -36,6 +36,11 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         // CEDAR
 
+        addDrop(ModBlocks.CEDAR_LOG);
+        addDrop(ModBlocks.STRIPPED_CEDAR_LOG);
+        addDrop(ModBlocks.CEDAR_WOOD);
+        addDrop(ModBlocks.STRIPPED_CEDAR_WOOD);
+
         addDrop(ModBlocks.CEDAR_PLANKS);
         addDrop(ModBlocks.CEDAR_STAIRS);
         addDrop(ModBlocks.CEDAR_SLAB, slabDrops(ModBlocks.CEDAR_SLAB));
