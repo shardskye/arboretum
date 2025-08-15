@@ -18,23 +18,11 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.CHESTNUT_PLANKS))
                     .displayName(Text.translatable("itemgroup.arboretum.arboretum_item_group"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModBlocks.CHESTNUT_LOG);
-                        entries.add(ModBlocks.STRIPPED_CHESTNUT_LOG);
-                        entries.add(ModBlocks.CHESTNUT_WOOD);
-                        entries.add(ModBlocks.STRIPPED_CHESTNUT_WOOD);
-                        entries.add(ModBlocks.CHESTNUT_PLANKS);
-                        entries.add(ModBlocks.CHESTNUT_STAIRS);
-                        entries.add(ModBlocks.CHESTNUT_SLAB);
-                        entries.add(ModBlocks.CHESTNUT_FENCE);
-                        entries.add(ModBlocks.CHESTNUT_FENCE_GATE);
-                        entries.add(ModBlocks.CHESTNUT_DOOR);
-                        entries.add(ModBlocks.CHESTNUT_TRAPDOOR);
-                        entries.add(ModBlocks.CHESTNUT_BUTTON);
-                        entries.add(ModBlocks.CHESTNUT_PRESSURE_PLATE);
                         entries.add(ModBlocks.CEDAR_LOG);
                         entries.add(ModBlocks.STRIPPED_CEDAR_LOG);
                         entries.add(ModBlocks.CEDAR_WOOD);
                         entries.add(ModBlocks.STRIPPED_CEDAR_WOOD);
+                        entries.add(ModBlocks.CEDAR_SAPLING);
                         entries.add(ModBlocks.CEDAR_PLANKS);
                         entries.add(ModBlocks.CEDAR_STAIRS);
                         entries.add(ModBlocks.CEDAR_SLAB);
@@ -44,6 +32,20 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CEDAR_TRAPDOOR);
                         entries.add(ModBlocks.CEDAR_BUTTON);
                         entries.add(ModBlocks.CEDAR_PRESSURE_PLATE);
+                        entries.add(ModBlocks.CHESTNUT_LOG);
+                        entries.add(ModBlocks.STRIPPED_CHESTNUT_LOG);
+                        entries.add(ModBlocks.CHESTNUT_WOOD);
+                        entries.add(ModBlocks.STRIPPED_CHESTNUT_WOOD);
+                        entries.add(ModBlocks.CHESTNUT_SAPLING);
+                        entries.add(ModBlocks.CHESTNUT_PLANKS);
+                        entries.add(ModBlocks.CHESTNUT_STAIRS);
+                        entries.add(ModBlocks.CHESTNUT_SLAB);
+                        entries.add(ModBlocks.CHESTNUT_FENCE);
+                        entries.add(ModBlocks.CHESTNUT_FENCE_GATE);
+                        entries.add(ModBlocks.CHESTNUT_DOOR);
+                        entries.add(ModBlocks.CHESTNUT_TRAPDOOR);
+                        entries.add(ModBlocks.CHESTNUT_BUTTON);
+                        entries.add(ModBlocks.CHESTNUT_PRESSURE_PLATE);
                     }).build());
 
 
