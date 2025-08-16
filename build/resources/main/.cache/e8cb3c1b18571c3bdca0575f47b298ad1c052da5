@@ -1,13 +1,15 @@
-// 1.21.1	2025-08-13T20:32:51.316652	Arboretum/Tags for minecraft:block
+// 1.21.1	2025-08-16T15:27:34.3669762	Arboretum/Tags for minecraft:block
 290d8204fd892f1cb64dcfc671e2715cbf9a938e data\minecraft\tags\block\wooden_stairs.json
 48cdc5a21cd6d23533237b7953085c4bef9b086f data\minecraft\tags\block\wooden_pressure_plates.json
 097c24b7d6980f5c9bdbf7d9028a9062b969d4fa data\minecraft\tags\block\wooden_buttons.json
+b0a3cbbd7481cb09d756b2469d2702928ca8f576 data\minecraft\tags\block\leaves.json
 895fa9b62f524ec13628698218625327e3744eee data\minecraft\tags\block\logs_that_burn.json
-35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\minecraft\tags\block\mineable\hoe.json
 c1a531741f476daceedb1e2d9c0aad373a816cdb data\minecraft\tags\block\fence_gates.json
+b0a3cbbd7481cb09d756b2469d2702928ca8f576 data\minecraft\tags\block\mineable\hoe.json
 b1880fcb56c65e0b4bc0b19ce8069550a7be7393 data\minecraft\tags\block\mineable\axe.json
 652e1468f742ec95150d499136881c8980328f04 data\minecraft\tags\block\wooden_slabs.json
 3cb81def8a1353c35961b84cbd205a929f116856 data\minecraft\tags\block\wooden_doors.json
+a92ee7184d2aeca9c8c2a4773593a3c4c27fe344 data\minecraft\tags\block\saplings.json
 63e79ff8acd64d1668f551ccb6c2450fc21e5beb data\minecraft\tags\block\wooden_trapdoors.json
 68a78c52a8301779c05acc46243d844c409c62f7 data\minecraft\tags\block\planks.json
 48e043e8a84299fc10b6b4089f719fb22bf34e01 data\minecraft\tags\block\wooden_fences.json

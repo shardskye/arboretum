@@ -4,3 +4,9 @@
 /gamerule doWeatherCycle false
 /weather clear
 /kill @e
+/locate biome arboretum:cedar_forest
+/tp @s 1481 77 -1148
+/locate biome arboretum:cedar_forest
+/tp @s 299 96 250
+/locate biome arboretum:cedar_forest
+/tp @s 680 73 -229

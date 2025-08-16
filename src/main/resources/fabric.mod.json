@@ -23,7 +23,10 @@
 		],
 		"client": [
 			"net.shardskye.arboretum.ArboretumClient"
-		]
+		],
+        "terrablender": [
+          "net.shardskye.arboretum.world.biome.ModTerrablenderAPI"
+        ]
 	},
 	"mixins": [
 		"arboretum.mixins.json"

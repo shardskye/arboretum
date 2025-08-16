@@ -1,7 +1,8 @@
-// 1.21.1	2025-08-13T20:32:51.3136213	Arboretum/Block Loot Tables
+// 1.21.1	2025-08-16T15:27:34.3659776	Arboretum/Block Loot Tables
 664e92ae688f2c3bbe910bfd1bab98ed0f1b0504 data\arboretum\loot_table\blocks\cedar_door.json
 8fdfc7108fe0304285a38f2de16c206dc1043696 data\arboretum\loot_table\blocks\cedar_trapdoor.json
 e67a538074ebdf40c3d100a7bfa17227446ad532 data\arboretum\loot_table\blocks\stripped_cedar_wood.json
+8d2e21e1b8c7c63ae32022813e3a12111f4e044c data\arboretum\loot_table\blocks\chestnut_sapling.json
 af9061afd4d24c68ca16ce74340d48ecae9edd06 data\arboretum\loot_table\blocks\chestnut_fence_gate.json
 ea69c8d74d2c9830e6cd09a8a6e110702537e07f data\arboretum\loot_table\blocks\cedar_button.json
 3c12b277f6d548ef9734b03303e77ee1c42116b6 data\arboretum\loot_table\blocks\cedar_planks.json
@@ -16,12 +17,15 @@ d94e16b4497b46f5aefcbab82d55e48243e80877 data\arboretum\loot_table\blocks\cedar_
 ba06b47f2e5b55a5a385b549e590685cb370c4e5 data\arboretum\loot_table\blocks\stripped_chestnut_log.json
 febaf8866d0ab4407469735f074813d598f09005 data\arboretum\loot_table\blocks\stripped_chestnut_wood.json
 f05a9f0b9cf3e3ecbbcdabb0cebd4aeb181240f8 data\arboretum\loot_table\blocks\chestnut_trapdoor.json
+26794ea98e364b3ce529a6efaf506d150b078946 data\arboretum\loot_table\blocks\cedar_sapling.json
 87b426cfbbb529baf88541143260bca6d890d514 data\arboretum\loot_table\blocks\cedar_fence.json
 1003f1264b6926e51d67c6d6cc3eda4a95a77494 data\arboretum\loot_table\blocks\cedar_fence_gate.json
 5ae6ad3b01c3b951bb9cc5aa8b09c2db0e465770 data\arboretum\loot_table\blocks\chestnut_wood.json
 edfc249fbc0a2f103a8dff5157145aab111c5b2d data\arboretum\loot_table\blocks\chestnut_log.json
+65e668271b5dbac9e74f77e64514a9f4eeb7eca9 data\arboretum\loot_table\blocks\chestnut_leaves.json
 4d175fcd6de3ae85331e61b1741a48622d1b4068 data\arboretum\loot_table\blocks\chestnut_slab.json
 3698031fda08d3cb4ba1b8bc016f55f8eb5e25e1 data\arboretum\loot_table\blocks\chestnut_fence.json
 6372c42d16853450b7b026045202959fa8069f42 data\arboretum\loot_table\blocks\stripped_cedar_log.json
 c2d9d94ce7e40da2f59c724ddf85b69ddc20c298 data\arboretum\loot_table\blocks\cedar_log.json
 b1bbf427f7009c3bad2e6df55bd3a82a4f1d312f data\arboretum\loot_table\blocks\cedar_slab.json
+372a86655888ca8b75ca061de2535bb02f35e6c1 data\arboretum\loot_table\blocks\cedar_leaves.json

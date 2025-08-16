@@ -23,6 +23,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CEDAR_WOOD);
                         entries.add(ModBlocks.STRIPPED_CEDAR_WOOD);
                         entries.add(ModBlocks.CEDAR_SAPLING);
+                        entries.add(ModBlocks.CEDAR_LEAVES);
                         entries.add(ModBlocks.CEDAR_PLANKS);
                         entries.add(ModBlocks.CEDAR_STAIRS);
                         entries.add(ModBlocks.CEDAR_SLAB);
@@ -37,6 +38,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CHESTNUT_WOOD);
                         entries.add(ModBlocks.STRIPPED_CHESTNUT_WOOD);
                         entries.add(ModBlocks.CHESTNUT_SAPLING);
+                        entries.add(ModBlocks.CHESTNUT_LEAVES);
                         entries.add(ModBlocks.CHESTNUT_PLANKS);
                         entries.add(ModBlocks.CHESTNUT_STAIRS);
                         entries.add(ModBlocks.CHESTNUT_SLAB);

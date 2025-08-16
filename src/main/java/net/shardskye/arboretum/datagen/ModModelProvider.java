@@ -35,7 +35,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_CHESTNUT_LOG).log(ModBlocks.STRIPPED_CHESTNUT_LOG).wood(ModBlocks.STRIPPED_CHESTNUT_WOOD);
 
         blockStateModelGenerator.registerSingleton(ModBlocks.CHESTNUT_LEAVES, TexturedModel.LEAVES);
-        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.CHESTNUT_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerTintableCross(ModBlocks.CHESTNUT_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
 
         // CEDAR
 
@@ -55,6 +55,9 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerLog(ModBlocks.CEDAR_LOG).log(ModBlocks.CEDAR_LOG).wood(ModBlocks.CEDAR_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_CEDAR_LOG).log(ModBlocks.STRIPPED_CEDAR_LOG).wood(ModBlocks.STRIPPED_CEDAR_WOOD);
+
+        blockStateModelGenerator.registerSingleton(ModBlocks.CEDAR_LEAVES, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerTintableCross(ModBlocks.CEDAR_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
 
     }
 

@@ -1,5 +1,5 @@
-[20:32:39] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.1 with Fabric Loader 0.16.14
-[20:32:40] [main/INFO] (FabricLoader) Loading 55 mods:
+[15:27:23] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.1 with Fabric Loader 0.16.14
+[15:27:23] [main/INFO] (FabricLoader) Loading 56 mods:
 	- arboretum 1.0.0
 	- fabric-api 0.116.4+1.21.1
 	- fabric-api-base 0.4.42+6573ed8c19
@@ -55,26 +55,33 @@
 	- java 21
 	- minecraft 1.21.1
 	- mixinextras 0.4.1
-[20:32:40] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Skyler/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/22f9eb729e216a091673a574a5906dc1b9027fb3/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[20:32:40] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[20:32:40] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
-[20:32:41] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[20:32:43] [Datafixer Bootstrap/INFO] (Minecraft) 226 Datafixer optimizations took 579 milliseconds
-[20:32:49] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:32:49] [Render thread/INFO] (Minecraft) Setting user: Player64
-[20:32:49] [Render thread/INFO] (arboretum) Registering Mod Blocks for arboretum
-[20:32:49] [Render thread/INFO] (arboretum) Registering Item Groups for arboretum
-[20:32:49] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[20:32:50] [Render thread/INFO] (FabricDataGenHelper) Running data generator for arboretum
-[20:32:51] [Render thread/INFO] (Minecraft) Starting provider: Arboretum/Tags for minecraft:block
-[20:32:51] [Render thread/INFO] (Minecraft) Arboretum/Tags for minecraft:block finished after 17 ms
-[20:32:51] [Render thread/INFO] (Minecraft) Starting provider: Arboretum/Tags for minecraft:item
-[20:32:51] [Render thread/INFO] (Minecraft) Arboretum/Tags for minecraft:item finished after 2 ms
-[20:32:51] [Render thread/INFO] (Minecraft) Starting provider: Arboretum/Block Loot Tables
-[20:32:51] [Render thread/INFO] (Minecraft) Arboretum/Block Loot Tables finished after 24 ms
-[20:32:51] [Render thread/INFO] (Minecraft) Starting provider: Arboretum/Model Definitions
-[20:32:51] [Render thread/INFO] (Minecraft) Arboretum/Model Definitions finished after 77 ms
-[20:32:51] [Render thread/INFO] (Minecraft) Starting provider: Arboretum/Recipes
-[20:32:51] [Render thread/INFO] (Minecraft) Arboretum/Recipes finished after 83 ms
-[20:32:51] [Render thread/INFO] (Minecraft) All providers took: 208 ms
-[20:32:51] [Render thread/INFO] (Minecraft) Caching: total files: 202, old count: 200, new count: 203, removed stale: 0, written: 2
+	- terrablender 4.1.0.8
+[15:27:24] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Skyler/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/22f9eb729e216a091673a574a5906dc1b9027fb3/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[15:27:24] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[15:27:24] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[15:27:24] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[15:27:25] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[15:27:27] [Datafixer Bootstrap/INFO] (Minecraft) 226 Datafixer optimizations took 427 milliseconds
+[15:27:32] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:27:32] [Render thread/INFO] (Minecraft) Setting user: Player978
+[15:27:33] [Render thread/INFO] (terrablender) Registered region minecraft:overworld to index 0 for type OVERWORLD
+[15:27:33] [Render thread/INFO] (terrablender) Registered region minecraft:nether to index 0 for type NETHER
+[15:27:33] [Render thread/INFO] (terrablender) Registered region arboretum:overworld to index 1 for type OVERWORLD
+[15:27:33] [Render thread/INFO] (arboretum) Registering Mod Blocks for arboretum
+[15:27:33] [Render thread/INFO] (arboretum) Registering Item Groups for arboretum
+[15:27:33] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[15:27:33] [Render thread/INFO] (FabricDataGenHelper) Running data generator for arboretum
+[15:27:34] [Render thread/INFO] (Minecraft) Starting provider: Arboretum/Tags for minecraft:block
+[15:27:34] [Render thread/INFO] (Minecraft) Arboretum/Tags for minecraft:block finished after 16 ms
+[15:27:34] [Render thread/INFO] (Minecraft) Starting provider: Arboretum/Tags for minecraft:item
+[15:27:34] [Render thread/INFO] (Minecraft) Arboretum/Tags for minecraft:item finished after 1 ms
+[15:27:34] [Render thread/INFO] (Minecraft) Starting provider: Arboretum/Block Loot Tables
+[15:27:34] [Render thread/INFO] (Minecraft) Arboretum/Block Loot Tables finished after 20 ms
+[15:27:34] [Render thread/INFO] (Minecraft) Starting provider: Arboretum/Model Definitions
+[15:27:34] [Render thread/INFO] (Minecraft) Arboretum/Model Definitions finished after 67 ms
+[15:27:34] [Render thread/INFO] (Minecraft) Starting provider: Arboretum/Recipes
+[15:27:34] [Render thread/INFO] (Minecraft) Arboretum/Recipes finished after 38 ms
+[15:27:34] [Render thread/INFO] (Minecraft) Starting provider: Arboretum/
+[15:27:34] [Render thread/INFO] (Minecraft) Arboretum/ finished after 8 ms
+[15:27:34] [Render thread/INFO] (Minecraft) All providers took: 154 ms
+[15:27:34] [Render thread/INFO] (Minecraft) Caching: total files: 233, old count: 233, new count: 234, removed stale: 0, written: 0

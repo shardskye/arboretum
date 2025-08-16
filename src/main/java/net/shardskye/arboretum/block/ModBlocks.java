@@ -13,6 +13,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.shardskye.arboretum.Arboretum;
+import net.shardskye.arboretum.world.tree.ModSaplingGenerators;
 
 public class ModBlocks {
     // CHESTNUT
@@ -59,9 +60,8 @@ public class ModBlocks {
                     .burnable()
                     .pistonBehavior(PistonBehavior.DESTROY)
                     .solidBlock(Blocks::never)));
-
     public static final Block CHESTNUT_SAPLING = registerBlock("chestnut_sapling",
-            new SaplingBlock(, AbstractBlock.Settings.create()
+            new SaplingBlock(ModSaplingGenerators.CHESTNUT, AbstractBlock.Settings.create()
                     .mapColor(MapColor.SPRUCE_BROWN)
                     .noCollision()
                     .ticksRandomly()
@@ -172,7 +172,7 @@ public class ModBlocks {
                     .pistonBehavior(PistonBehavior.DESTROY)
                     .solidBlock(Blocks::never)));
     public static final Block CEDAR_SAPLING = registerBlock("cedar_sapling",
-            new SaplingBlock(, AbstractBlock.Settings.create()
+            new SaplingBlock(ModSaplingGenerators.CEDAR, AbstractBlock.Settings.create()
                     .mapColor(MapColor.ORANGE)
                     .noCollision()
                     .ticksRandomly()
@@ -259,6 +259,7 @@ public class ModBlocks {
             fabricItemGroupEntries.add(ModBlocks.CEDAR_LEAVES);
             fabricItemGroupEntries.add(ModBlocks.CHESTNUT_LEAVES);
             fabricItemGroupEntries.add(ModBlocks.CEDAR_LEAVES);
+            fabricItemGroupEntries.add(ModBlocks.CEDAR_SAPLING);
             fabricItemGroupEntries.add(ModBlocks.CHESTNUT_SAPLING);
         });
 
