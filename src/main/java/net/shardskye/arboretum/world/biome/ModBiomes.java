@@ -15,13 +15,17 @@ import net.minecraft.world.gen.GenerationStep;
 import net.minecraft.world.gen.feature.DefaultBiomeFeatures;
 import net.minecraft.world.gen.feature.VegetationPlacedFeatures;
 import net.shardskye.arboretum.Arboretum;
+import net.shardskye.arboretum.world.ModPlacedFeatures;
 
 public class ModBiomes {
     public static final RegistryKey<Biome> CEDAR_FOREST = RegistryKey.of(RegistryKeys.BIOME,
             Identifier.of(Arboretum.MOD_ID, "cedar_forest"));
+    public static final RegistryKey<Biome> CHESTNUT_GROVE = RegistryKey.of(RegistryKeys.BIOME,
+            Identifier.of(Arboretum.MOD_ID, "chestnut_grove"));
 
     public static void bootstrap(Registerable<Biome> context) {
         context.register(CEDAR_FOREST, cedarForest(context));
+        context.register(CHESTNUT_GROVE, chestnutGrove(context));
     }
 
     public static void globalOverworldGeneration(GenerationSettings.LookupBackedBuilder builder) {
@@ -31,6 +35,7 @@ public class ModBiomes {
         DefaultBiomeFeatures.addMineables(builder);
         DefaultBiomeFeatures.addSprings(builder);
         DefaultBiomeFeatures.addFrozenTopLayer(builder);
+        DefaultBiomeFeatures.addDefaultOres(builder);
     }
 
     public static Biome cedarForest(Registerable<Biome> context) {
@@ -47,10 +52,8 @@ public class ModBiomes {
 
         globalOverworldGeneration(biomeBuilder);
         DefaultBiomeFeatures.addMossyRocks(biomeBuilder);
-        DefaultBiomeFeatures.addDefaultOres(biomeBuilder);
-        DefaultBiomeFeatures.addExtraGoldOre(biomeBuilder);
 
-        biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, VegetationPlacedFeatures.TREES_PLAINS);
+        biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.CEDAR_PLACED_KEY);
         DefaultBiomeFeatures.addForestFlowers(biomeBuilder);
         DefaultBiomeFeatures.addLargeFerns(biomeBuilder);
 
@@ -60,18 +63,54 @@ public class ModBiomes {
         return new Biome.Builder()
                 .precipitation(true)
                 .downfall(0.4f)
-                .temperature(0.7f)
+                .temperature(0.4f)
                 .generationSettings(biomeBuilder.build())
                 .spawnSettings(spawnBuilder.build())
                 .effects((new BiomeEffects.Builder())
-                        .waterColor(0xe82e3b)
-                        .waterFogColor(0xbf1b26)
-                        .skyColor(0x30c918)
-                        .grassColor(0x7f03fc)
-                        .foliageColor(0xd203fc)
-                        .fogColor(0x22a1e6)
-                        .moodSound(BiomeMoodSound.CAVE)
+                        .waterColor(0x3f76e4)
+                        .waterFogColor(0x050533)
+                        .skyColor(0x7da3ff)
+                        .grassColor(0x86b783)
+                        .foliageColor(0x68a464)
+                        .fogColor(0xc0d8ff)
                 .build()).build();
     }
 
+    public static Biome chestnutGrove(Registerable<Biome> context) {
+        SpawnSettings.Builder spawnBuilder = new SpawnSettings.Builder();
+
+        spawnBuilder.spawn(SpawnGroup.CREATURE, new SpawnSettings.SpawnEntry(EntityType.WOLF, 5, 4, 4));
+
+        DefaultBiomeFeatures.addFarmAnimals(spawnBuilder);
+        DefaultBiomeFeatures.addBatsAndMonsters(spawnBuilder);
+
+        GenerationSettings.LookupBackedBuilder biomeBuilder =
+                new GenerationSettings.LookupBackedBuilder(context.getRegistryLookup(RegistryKeys.PLACED_FEATURE),
+                        context.getRegistryLookup(RegistryKeys.CONFIGURED_CARVER));
+
+        globalOverworldGeneration(biomeBuilder);
+        DefaultBiomeFeatures.addMossyRocks(biomeBuilder);
+
+        biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.CHESTNUT_PLACED_KEY);
+        DefaultBiomeFeatures.addForestFlowers(biomeBuilder);
+        DefaultBiomeFeatures.addLargeFerns(biomeBuilder);
+
+        DefaultBiomeFeatures.addDefaultMushrooms(biomeBuilder);
+        DefaultBiomeFeatures.addDefaultVegetation(biomeBuilder);
+
+        return new Biome.Builder()
+                .precipitation(true)
+                .downfall(0.4f)
+                .temperature(0.4f)
+                .generationSettings(biomeBuilder.build())
+                .spawnSettings(spawnBuilder.build())
+                .effects((new BiomeEffects.Builder())
+                        .waterColor(0x3f76e4)
+                        .waterFogColor(0x050533)
+                        .skyColor(0x7da3ff)
+                        .grassColor(0x86b783)
+                        .foliageColor(0x68a464)
+                        .fogColor(0xc0d8ff)
+                        .build()).build();
+    }
 }

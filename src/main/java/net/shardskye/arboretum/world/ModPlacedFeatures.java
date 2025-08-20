@@ -5,20 +5,28 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
-import net.minecraft.world.gen.feature.ConfiguredFeature;
-import net.minecraft.world.gen.feature.Feature;
-import net.minecraft.world.gen.feature.FeatureConfig;
-import net.minecraft.world.gen.feature.PlacedFeature;
+import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.placementmodifier.PlacementModifier;
 import net.shardskye.arboretum.Arboretum;
+import net.shardskye.arboretum.block.ModBlocks;
 
 import java.util.List;
 
 public class ModPlacedFeatures {
 
+    public static final RegistryKey<PlacedFeature> CEDAR_PLACED_KEY = registerKey("cedar_placed");
+    public static final RegistryKey<PlacedFeature> CHESTNUT_PLACED_KEY = registerKey("chestnut_placed");
+
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatures = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
+        register(context, CEDAR_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.CEDAR_KEY),
+                VegetationPlacedFeatures.treeModifiersWithWouldSurvive(
+                        PlacedFeatures.createCountExtraModifier(4, 0.1f, 2), ModBlocks.CEDAR_SAPLING));
+
+        register(context, CHESTNUT_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.CHESTNUT_KEY),
+                VegetationPlacedFeatures.treeModifiersWithWouldSurvive(
+                        PlacedFeatures.createCountExtraModifier(4, 0.1f, 2), ModBlocks.CHESTNUT_SAPLING));
     }
 
     public static RegistryKey<PlacedFeature> registerKey(String name) {

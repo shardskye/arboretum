@@ -1,4 +1,3 @@
-/reload
 /time set noon
 /gamerule doDaylightCycle false
 /gamerule doWeatherCycle false
@@ -10,3 +9,42 @@
 /tp @s 299 96 250
 /locate biome arboretum:cedar_forest
 /tp @s 680 73 -229
+/locate biome arboretum:cedar_forest
+/tp @s 2055 161 1236
+/locate biome arboretum:cedar_forest
+/tp @s -1950 98 -1255
+/seed
+/locate biome arboretum:cedar_forest
+/tp @s -827 116 1695
+/locate biome arboretum:cedar_forest
+/tp @s -2017 -57 965
+/locate biome arboretum:cedar_forest
+/tp @s 1465 80 -1986
+/locate biome arboretum:cedar_forest
+/tp @s 131 107 655
+/locate biome arboretum:cedar_forest
+/tp @s 2111 70 2050
+/locate biome arboretum:cedar_forest
+/tp @s 1252 51 -1012
+/locate biome arboretum:cedar_forest
+/tp @s -728 92 258
+/locate biome taiga
+/tp @s -288 88 1019
+/locate biome taiga
+/locate biome arboretum:cedar_forest
+/tp @s 501 86 662
+/locate biome arboretum:chestnut_grove
+/tp @s 603 77 -1361
+/locate biome arboretum:cedar_forest
+/locate biome arboretum:chestnut_grove
+/tp @s 545 150 -680
+/tp @s -2663 86 1595
+/seed
+/locate biome arboretum:chestnut_grove
+/locate biome arboretum:cedar_forest
+/tp @s 1122 70 2505
+/tp @s 1314 70 3529
+/locate biome arboretum:cedar_forest
+/locate biome arboretum:chestnut_grove
+/tp @s 207 54 1030
+/tp @s 751 54 3558
