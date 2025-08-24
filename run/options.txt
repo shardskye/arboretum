@@ -47,8 +47,8 @@ mouseSensitivity:0.3485915492957746
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","file/Better-Leaves-9.3.zip","file/Default-Dark-Mode-1.20.2+-2025.5.0.zip","file/Default-Dark-Mode-Expansion-1.19.0+-2025.7.1.zip","file/Fancy Crops v1.2.zip","file/Flower Clusters 1.1.2.zip","file/Overhauled Mobs Vanillised §0[v0.1].zip","file/1.21 Pack.zip"]
-incompatibleResourcePacks:["tweakeroo","yet_another_config_lib_v3","file/Overhauled Mobs Vanillised §0[v0.1].zip"]
+resourcePacks:["vanilla","fabric","file/Better-Leaves-9.3.zip","file/Fancy Crops v1.2.zip","file/Overhauled Mobs Vanillised §0[v0.1].zip","file/1.21.1 RP.zip","file/Dyes-Backport-1.1.zip","file/Recolourful Containers DARK 2.1.1 (1.19.4+).zip","file/Shard\u0027s Foliage Upgrades v1.zip"]
+incompatibleResourcePacks:["terrablender","tweakeroo","yet_another_config_lib_v3","file/Overhauled Mobs Vanillised §0[v0.1].zip","file/Shard\u0027s Foliage Upgrades v1.zip"]
 lastServer:
 lang:en_us
 chatVisibility:0
@@ -120,15 +120,6 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-key_key.skinshuffle.preset_1:key.keyboard.unknown
-key_key.skinshuffle.preset_2:key.keyboard.unknown
-key_key.skinshuffle.preset_3:key.keyboard.unknown
-key_key.skinshuffle.preset_4:key.keyboard.unknown
-key_key.skinshuffle.preset_5:key.keyboard.unknown
-key_key.skinshuffle.preset_6:key.keyboard.unknown
-key_key.skinshuffle.preset_7:key.keyboard.unknown
-key_key.skinshuffle.preset_8:key.keyboard.unknown
-key_key.skinshuffle.preset_9:key.keyboard.unknown
 key_key.camerautils.zoom:key.keyboard.c
 key_key.camerautils.third_person_cam_1:key.keyboard.f6
 key_key.camerautils.third_person_cam_2:key.keyboard.f7
@@ -142,6 +133,15 @@ key_key.camerautils.third_person_camera_2_settings:key.keyboard.unknown
 key_key.camerautils.third_person_settings:key.keyboard.unknown
 key_key.camerautils.zoom_settings:key.keyboard.unknown
 key_key.camerautils.zoom_animation_settings:key.keyboard.unknown
+key_key.skinshuffle.preset_1:key.keyboard.unknown
+key_key.skinshuffle.preset_2:key.keyboard.unknown
+key_key.skinshuffle.preset_3:key.keyboard.unknown
+key_key.skinshuffle.preset_4:key.keyboard.unknown
+key_key.skinshuffle.preset_5:key.keyboard.unknown
+key_key.skinshuffle.preset_6:key.keyboard.unknown
+key_key.skinshuffle.preset_7:key.keyboard.unknown
+key_key.skinshuffle.preset_8:key.keyboard.unknown
+key_key.skinshuffle.preset_9:key.keyboard.unknown
 key_key.modmenu.open_menu:key.keyboard.unknown
 soundCategory_master:0.45695364238410596
 soundCategory_music:0.0

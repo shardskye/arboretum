@@ -1,4 +1,4 @@
-// 1.21.1	2025-08-16T20:01:24.9522508	Arboretum/Model Definitions
+// 1.21.1	2025-08-23T23:37:26.6852266	Arboretum/Model Definitions
 6cd74745709a9038d4e20971bc73012c0b4f96d8 assets\arboretum\models\item\cedar_pressure_plate.json
 4a1de7e84804964a67ecc02db1554d95392c11a7 assets\arboretum\models\block\chestnut_pressure_plate.json
 14144b434dac63dd35669a25f170cef59974e58f assets\arboretum\models\item\chestnut_planks.json
@@ -107,10 +107,10 @@ a95948229f33b83109de70f2ccd2ebfc95b42357 assets\arboretum\models\block\chestnut_
 8fcf17bdcdb5c07f4f6949661811c6209c6ab600 assets\arboretum\blockstates\stripped_chestnut_wood.json
 272c253ce624f43c46ddd64ec14fba7be4c3dfe1 assets\arboretum\blockstates\chestnut_door.json
 5aebac9b61fa47dbb1cec3ae93ddd1fb546be416 assets\arboretum\models\block\cedar_fence_inventory.json
-81dfa14faa943c58b3a6c58a1352d954dc0c1998 assets\arboretum\models\item\stripped_chestnut_wood.json
 5f3fb2cc21de7c497819dbf280c2f56f08543503 assets\arboretum\models\block\chestnut_door_top_right.json
-c10650bbe37ce75c8caeb434a7b3d8a639b7744e assets\arboretum\models\item\chestnut_pressure_plate.json
+81dfa14faa943c58b3a6c58a1352d954dc0c1998 assets\arboretum\models\item\stripped_chestnut_wood.json
 452e025be01b9f2cd2e814694ca263bebabaf589 assets\arboretum\models\block\cedar_wood.json
+c10650bbe37ce75c8caeb434a7b3d8a639b7744e assets\arboretum\models\item\chestnut_pressure_plate.json
 511163bb75db5e732aaf620d4cb0c931b4384365 assets\arboretum\models\item\cedar_stairs.json
 96a3499d085b27e583923fe400893cef0277d03b assets\arboretum\models\block\cedar_sapling.json
 b2d60749813610fb62157557630c96b43e6c9f12 assets\arboretum\blockstates\cedar_door.json

@@ -42,6 +42,7 @@ public class ModBiomes {
         SpawnSettings.Builder spawnBuilder = new SpawnSettings.Builder();
 
         spawnBuilder.spawn(SpawnGroup.CREATURE, new SpawnSettings.SpawnEntry(EntityType.WOLF, 5, 4, 4));
+        spawnBuilder.spawn(SpawnGroup.CREATURE, new SpawnSettings.SpawnEntry(EntityType.FOX, 3, 2, 3));
 
         DefaultBiomeFeatures.addFarmAnimals(spawnBuilder);
         DefaultBiomeFeatures.addBatsAndMonsters(spawnBuilder);
@@ -54,11 +55,8 @@ public class ModBiomes {
         DefaultBiomeFeatures.addMossyRocks(biomeBuilder);
 
         biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.CEDAR_PLACED_KEY);
-        DefaultBiomeFeatures.addForestFlowers(biomeBuilder);
-        DefaultBiomeFeatures.addLargeFerns(biomeBuilder);
-
-        DefaultBiomeFeatures.addDefaultMushrooms(biomeBuilder);
-        DefaultBiomeFeatures.addDefaultVegetation(biomeBuilder);
+        biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.MEGA_CEDAR_PLACED_KEY);
+        DefaultBiomeFeatures.addGiantTaigaGrass(biomeBuilder);
 
         return new Biome.Builder()
                 .precipitation(true)
@@ -89,14 +87,10 @@ public class ModBiomes {
                         context.getRegistryLookup(RegistryKeys.CONFIGURED_CARVER));
 
         globalOverworldGeneration(biomeBuilder);
-        DefaultBiomeFeatures.addMossyRocks(biomeBuilder);
 
         biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.CHESTNUT_PLACED_KEY);
-        DefaultBiomeFeatures.addForestFlowers(biomeBuilder);
-        DefaultBiomeFeatures.addLargeFerns(biomeBuilder);
-
-        DefaultBiomeFeatures.addDefaultMushrooms(biomeBuilder);
-        DefaultBiomeFeatures.addDefaultVegetation(biomeBuilder);
+        DefaultBiomeFeatures.addPlainsFeatures(biomeBuilder);
+        DefaultBiomeFeatures.addSavannaTallGrass(biomeBuilder);
 
         return new Biome.Builder()
                 .precipitation(true)
@@ -107,10 +101,11 @@ public class ModBiomes {
                 .effects((new BiomeEffects.Builder())
                         .waterColor(0x3f76e4)
                         .waterFogColor(0x050533)
-                        .skyColor(0x7da3ff)
-                        .grassColor(0x86b783)
-                        .foliageColor(0x68a464)
+                        .skyColor(0x76a8ff)
+                        .grassColor(0x9ABE4B)
+                        .foliageColor(0x9ABE4B)
                         .fogColor(0xc0d8ff)
-                        .build()).build();
+                        .build())
+                .build();
     }
 }

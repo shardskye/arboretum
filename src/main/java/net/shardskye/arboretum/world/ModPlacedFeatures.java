@@ -15,12 +15,16 @@ import java.util.List;
 public class ModPlacedFeatures {
 
     public static final RegistryKey<PlacedFeature> CEDAR_PLACED_KEY = registerKey("cedar_placed");
+    public static final RegistryKey<PlacedFeature> MEGA_CEDAR_PLACED_KEY = registerKey("mega_cedar_placed");
     public static final RegistryKey<PlacedFeature> CHESTNUT_PLACED_KEY = registerKey("chestnut_placed");
 
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatures = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
         register(context, CEDAR_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.CEDAR_KEY),
+                VegetationPlacedFeatures.treeModifiersWithWouldSurvive(
+                        PlacedFeatures.createCountExtraModifier(4, 0.1f, 2), ModBlocks.CEDAR_SAPLING));
+        register(context, MEGA_CEDAR_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.MEGA_CEDAR_KEY),
                 VegetationPlacedFeatures.treeModifiersWithWouldSurvive(
                         PlacedFeatures.createCountExtraModifier(4, 0.1f, 2), ModBlocks.CEDAR_SAPLING));
 

@@ -1,50 +1,50 @@
-/time set noon
-/gamerule doDaylightCycle false
-/gamerule doWeatherCycle false
-/weather clear
-/kill @e
-/locate biome arboretum:cedar_forest
-/tp @s 1481 77 -1148
-/locate biome arboretum:cedar_forest
-/tp @s 299 96 250
-/locate biome arboretum:cedar_forest
-/tp @s 680 73 -229
-/locate biome arboretum:cedar_forest
-/tp @s 2055 161 1236
-/locate biome arboretum:cedar_forest
-/tp @s -1950 98 -1255
-/seed
-/locate biome arboretum:cedar_forest
-/tp @s -827 116 1695
-/locate biome arboretum:cedar_forest
-/tp @s -2017 -57 965
-/locate biome arboretum:cedar_forest
-/tp @s 1465 80 -1986
-/locate biome arboretum:cedar_forest
-/tp @s 131 107 655
-/locate biome arboretum:cedar_forest
-/tp @s 2111 70 2050
-/locate biome arboretum:cedar_forest
-/tp @s 1252 51 -1012
-/locate biome arboretum:cedar_forest
-/tp @s -728 92 258
-/locate biome taiga
-/tp @s -288 88 1019
-/locate biome taiga
-/locate biome arboretum:cedar_forest
-/tp @s 501 86 662
+/tp @s -654 72 -468
 /locate biome arboretum:chestnut_grove
-/tp @s 603 77 -1361
-/locate biome arboretum:cedar_forest
+/tp @s 910 74 -1310
 /locate biome arboretum:chestnut_grove
-/tp @s 545 150 -680
-/tp @s -2663 86 1595
-/seed
+/tp @s -472 77 -246
 /locate biome arboretum:chestnut_grove
-/locate biome arboretum:cedar_forest
-/tp @s 1122 70 2505
-/tp @s 1314 70 3529
-/locate biome arboretum:cedar_forest
+/tp @s 406 88 2963
 /locate biome arboretum:chestnut_grove
-/tp @s 207 54 1030
-/tp @s 751 54 3558
+/tp @s -1166 77 -1185
+/locate biome arboretum:chestnut_grove
+/tp @s -1814 77 1347
+/locate biome arboretum:chestnut_grove
+/tp @s 334 77 410
+/locate biome arboretum:chestnut_grove
+/tp @s -237 116 193
+/locate biome arboretum:chestnut_grove
+/tp @s 1794 75 1191
+/locate biome arboretum:chestnut_grove
+/tp @s -2307 88 -2145
+/locate biome arboretum:chestnut_grove
+/tp @s -755 87 1611
+/place feature arboretum:fallen_chestnut
+/locate biome arboretum:chestnut_grove
+/tp @s 2561 97 -974
+/locate biome arboretum:cedar_forest
+/tp @s 98 70 -1785
+/locate biome arboretum:cedar_forest
+/tp @s -2059 80 -1706
+/locate biome arboretum:cedar_forest
+/tp @s -973 63 1004
+/locate biome arboretum:cedar_forest
+/tp @s 902 103 -2729
+/locate biome arboretum:cedar_forest
+/tp @s -4385 82 -4518
+/locate biome arboretum:cedar_forest
+/tp @s 174 21 1481
+/locate biome arboretum:cedar_forest
+/tp @s -296 97 1531
+/locate biome arboretum:cedar_forest
+/tp @s -1649 109 1903
+/locate biome arboretum:cedar_forest
+/tp @s -2288 71 -1103
+/locate biome arboretum:cedar_forest
+/tp @s -931 -11 -913
+/locate biome arboretum:cedar_forest
+/tp @s 256 -25 -1829
+/locate biome arboretum:cedar_forest
+/tp @s 2303 67 2943
+/locate biome arboretum:cedar_forest
+/tp @s 2838 99 2893
