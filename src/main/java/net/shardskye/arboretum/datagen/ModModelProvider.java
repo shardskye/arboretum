@@ -59,6 +59,28 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSingleton(ModBlocks.CEDAR_LEAVES, TexturedModel.LEAVES);
         blockStateModelGenerator.registerTintableCross(ModBlocks.CEDAR_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
 
+        // MPINGO
+
+        BlockStateModelGenerator.BlockTexturePool mpingoPlankPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MPINGO_PLANKS);
+
+        mpingoPlankPool.stairs(ModBlocks.MPINGO_STAIRS);
+        mpingoPlankPool.slab(ModBlocks.MPINGO_SLAB);
+
+        mpingoPlankPool.fence(ModBlocks.MPINGO_FENCE);
+        mpingoPlankPool.fenceGate(ModBlocks.MPINGO_FENCE_GATE);
+
+        mpingoPlankPool.pressurePlate(ModBlocks.MPINGO_PRESSURE_PLATE);
+        mpingoPlankPool.button(ModBlocks.MPINGO_BUTTON);
+
+        blockStateModelGenerator.registerDoor(ModBlocks.MPINGO_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.MPINGO_TRAPDOOR);
+
+        blockStateModelGenerator.registerLog(ModBlocks.MPINGO_LOG).log(ModBlocks.MPINGO_LOG).wood(ModBlocks.MPINGO_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_MPINGO_LOG).log(ModBlocks.STRIPPED_MPINGO_LOG).wood(ModBlocks.STRIPPED_MPINGO_WOOD);
+
+        blockStateModelGenerator.registerSingleton(ModBlocks.MPINGO_LEAVES, TexturedModel.LEAVES);
+        //blockStateModelGenerator.registerTintableCross(ModBlocks.MPINGO_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+
     }
 
     @Override

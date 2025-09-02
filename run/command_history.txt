@@ -1,14 +1,3 @@
-/tp @s -654 72 -468
-/locate biome arboretum:chestnut_grove
-/tp @s 910 74 -1310
-/locate biome arboretum:chestnut_grove
-/tp @s -472 77 -246
-/locate biome arboretum:chestnut_grove
-/tp @s 406 88 2963
-/locate biome arboretum:chestnut_grove
-/tp @s -1166 77 -1185
-/locate biome arboretum:chestnut_grove
-/tp @s -1814 77 1347
 /locate biome arboretum:chestnut_grove
 /tp @s 334 77 410
 /locate biome arboretum:chestnut_grove
@@ -48,3 +37,14 @@
 /tp @s 2303 67 2943
 /locate biome arboretum:cedar_forest
 /tp @s 2838 99 2893
+/locate biome arboretum:cedar_forest
+/locate biome arboretum:chestnut_grove
+/tp @s 1284 76 -1078
+/locate biome arboretum:chestnut_grove
+/tp @s -35 69 -165
+/locate biome arboretum:chestnut_grove
+/tp @s -662 72 88
+/locate biome arboretum:chestnut_grove
+/locate biome arboretum:cedar_forest
+/tp @s 399 139 -7
+/tp @s 238 139 -1317

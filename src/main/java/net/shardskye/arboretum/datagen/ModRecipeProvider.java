@@ -59,5 +59,45 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createFenceGateRecipe(ModBlocks.CEDAR_FENCE_GATE, Ingredient.ofItems(ModBlocks.CEDAR_PLANKS)).criterion(hasItem(ModBlocks.CEDAR_PLANKS), conditionsFromItem(ModBlocks.CEDAR_PLANKS)).offerTo(recipeExporter, Identifier.of("cedar_fence_gate"));
         createFenceGateRecipe(ModBlocks.CEDAR_FENCE, Ingredient.ofItems(ModBlocks.CEDAR_PLANKS)).criterion(hasItem(ModBlocks.CEDAR_PLANKS), conditionsFromItem(ModBlocks.CEDAR_PLANKS)).offerTo(recipeExporter, Identifier.of("cedar_fence"));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STRIPPED_CEDAR_WOOD, 3)
+                .pattern("RR")
+                .pattern("RR")
+                .input(Character.valueOf('R'), ModBlocks.STRIPPED_CEDAR_LOG)
+                .criterion(hasItem(ModBlocks.STRIPPED_CEDAR_LOG), conditionsFromItem(ModBlocks.STRIPPED_CEDAR_LOG))
+                .offerTo(recipeExporter, Identifier.of("stripped_cedar_wood_craft"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CEDAR_WOOD, 4)
+                .pattern("RR")
+                .pattern("RR")
+                .input(Character.valueOf('R'), ModBlocks.CEDAR_LOG)
+                .criterion(hasItem(ModBlocks.CEDAR_LOG), conditionsFromItem(ModBlocks.CEDAR_LOG))
+                .offerTo(recipeExporter, Identifier.of("cedar_wood_craft"));
+
+        // MPINGO
+
+        offerPlanksRecipe(recipeExporter, ModBlocks.MPINGO_PLANKS, ModTags.Items.MPINGO_LOGS, 4);
+        offerPressurePlateRecipe(recipeExporter, ModBlocks.MPINGO_PRESSURE_PLATE, ModBlocks.MPINGO_PLANKS);
+        offerSlabRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.MPINGO_SLAB, ModBlocks.MPINGO_PLANKS);
+        createStairsRecipe(ModBlocks.MPINGO_STAIRS, Ingredient.ofItems(ModBlocks.MPINGO_PLANKS)).criterion(hasItem(ModBlocks.MPINGO_PLANKS), conditionsFromItem(ModBlocks.MPINGO_PLANKS)).offerTo(recipeExporter, Identifier.of("mpingo_stairs"));
+        offerSingleOutputShapelessRecipe(recipeExporter, ModBlocks.MPINGO_BUTTON, ModBlocks.MPINGO_PLANKS, "button");
+        createTrapdoorRecipe(ModBlocks.MPINGO_TRAPDOOR, Ingredient.ofItems(ModBlocks.MPINGO_PLANKS)).criterion(hasItem(ModBlocks.MPINGO_PLANKS), conditionsFromItem(ModBlocks.MPINGO_PLANKS)).offerTo(recipeExporter, Identifier.of("mpingo_trapdoor"));
+        createDoorRecipe(ModBlocks.MPINGO_DOOR, Ingredient.ofItems(ModBlocks.MPINGO_PLANKS)).criterion(hasItem(ModBlocks.MPINGO_PLANKS), conditionsFromItem(ModBlocks.MPINGO_PLANKS)).offerTo(recipeExporter, Identifier.of("mpingo_door"));
+        createFenceGateRecipe(ModBlocks.MPINGO_FENCE_GATE, Ingredient.ofItems(ModBlocks.MPINGO_PLANKS)).criterion(hasItem(ModBlocks.MPINGO_PLANKS), conditionsFromItem(ModBlocks.MPINGO_PLANKS)).offerTo(recipeExporter, Identifier.of("mpingo_fence_gate"));
+        createFenceRecipe(ModBlocks.MPINGO_FENCE, Ingredient.ofItems(ModBlocks.MPINGO_PLANKS)).criterion(hasItem(ModBlocks.MPINGO_PLANKS), conditionsFromItem(ModBlocks.MPINGO_PLANKS)).offerTo(recipeExporter, Identifier.of("mpingo_fence"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STRIPPED_MPINGO_WOOD, 3)
+                .pattern("RR")
+                .pattern("RR")
+                .input(Character.valueOf('R'), ModBlocks.STRIPPED_MPINGO_LOG)
+                .criterion(hasItem(ModBlocks.STRIPPED_MPINGO_LOG), conditionsFromItem(ModBlocks.STRIPPED_MPINGO_LOG))
+                .offerTo(recipeExporter, Identifier.of("stripped_mpingo_wood_craft"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MPINGO_WOOD, 4)
+                .pattern("RR")
+                .pattern("RR")
+                .input(Character.valueOf('R'), ModBlocks.MPINGO_LOG)
+                .criterion(hasItem(ModBlocks.MPINGO_LOG), conditionsFromItem(ModBlocks.MPINGO_LOG))
+                .offerTo(recipeExporter, Identifier.of("mpingo_wood_craft"));
+
     }
 }

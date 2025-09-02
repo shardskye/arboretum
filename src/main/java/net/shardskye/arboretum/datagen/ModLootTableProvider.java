@@ -59,5 +59,28 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.CEDAR_DOOR, doorDrops(ModBlocks.CEDAR_DOOR));
         addDrop(ModBlocks.CEDAR_TRAPDOOR);
+
+        // MPINGO
+
+        addDrop(ModBlocks.MPINGO_LOG);
+        addDrop(ModBlocks.STRIPPED_MPINGO_LOG);
+        addDrop(ModBlocks.MPINGO_WOOD);
+        addDrop(ModBlocks.STRIPPED_MPINGO_WOOD);
+
+        addDrop(ModBlocks.MPINGO_LEAVES, leavesDrops(ModBlocks.MPINGO_LEAVES, ModBlocks.CHESTNUT_SAPLING, 0.0625f));
+        //addDrop(ModBlocks.MPINGO_SAPLING);
+
+        addDrop(ModBlocks.MPINGO_PLANKS);
+        addDrop(ModBlocks.MPINGO_STAIRS);
+        addDrop(ModBlocks.MPINGO_SLAB, slabDrops(ModBlocks.MPINGO_SLAB));
+
+        addDrop(ModBlocks.MPINGO_FENCE);
+        addDrop(ModBlocks.MPINGO_FENCE_GATE);
+
+        addDrop(ModBlocks.MPINGO_PRESSURE_PLATE);
+        addDrop(ModBlocks.MPINGO_BUTTON);
+
+        addDrop(ModBlocks.MPINGO_DOOR, doorDrops(ModBlocks.MPINGO_DOOR));
+        addDrop(ModBlocks.MPINGO_TRAPDOOR);
     }
 }

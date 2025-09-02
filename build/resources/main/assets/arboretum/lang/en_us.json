@@ -29,6 +29,20 @@
   "block.arboretum.stripped_cedar_wood": "Stripped Cedar Wood",
   "block.arboretum.cedar_leaves": "Cedar Leaves",
   "block.arboretum.cedar_sapling": "Cedar Sapling",
+  "block.arboretum.mpingo_planks": "Mpingo Planks",
+  "block.arboretum.mpingo_slab": "Mpingo Slab",
+  "block.arboretum.mpingo_stairs": "Mpingo Stairs",
+  "block.arboretum.mpingo_fence": "Mpingo Fence",
+  "block.arboretum.mpingo_fence_gate": "Mpingo Fence Gate",
+  "block.arboretum.mpingo_pressure_plate": "Mpingo Pressure Plate",
+  "block.arboretum.mpingo_button": "Mpingo Button",
+  "block.arboretum.mpingo_door": "Mpingo Door",
+  "block.arboretum.mpingo_trapdoor": "Mpingo Trapdoor",
+  "block.arboretum.mpingo_log": "Mpingo Log",
+  "block.arboretum.mpingo_wood": "Mpingo Wood",
+  "block.arboretum.stripped_mpingo_log": "Stripped Mpingo Log",
+  "block.arboretum.stripped_mpingo_wood": "Stripped Mpingo Wood",
+  "block.arboretum.mpingo_leaves": "Mpingo Leaves",
   
   "itemgroup.arboretum.arboretum_item_group": "Arboretum"
 }

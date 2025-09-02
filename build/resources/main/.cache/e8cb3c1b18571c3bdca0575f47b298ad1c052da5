@@ -1,15 +1,15 @@
-// 1.21.1	2025-08-23T23:37:26.6842266	Arboretum/Tags for minecraft:block
-290d8204fd892f1cb64dcfc671e2715cbf9a938e data\minecraft\tags\block\wooden_stairs.json
-48cdc5a21cd6d23533237b7953085c4bef9b086f data\minecraft\tags\block\wooden_pressure_plates.json
-b0a3cbbd7481cb09d756b2469d2702928ca8f576 data\minecraft\tags\block\leaves.json
-097c24b7d6980f5c9bdbf7d9028a9062b969d4fa data\minecraft\tags\block\wooden_buttons.json
-895fa9b62f524ec13628698218625327e3744eee data\minecraft\tags\block\logs_that_burn.json
-c1a531741f476daceedb1e2d9c0aad373a816cdb data\minecraft\tags\block\fence_gates.json
-b0a3cbbd7481cb09d756b2469d2702928ca8f576 data\minecraft\tags\block\mineable\hoe.json
-b1880fcb56c65e0b4bc0b19ce8069550a7be7393 data\minecraft\tags\block\mineable\axe.json
-652e1468f742ec95150d499136881c8980328f04 data\minecraft\tags\block\wooden_slabs.json
-3cb81def8a1353c35961b84cbd205a929f116856 data\minecraft\tags\block\wooden_doors.json
+// 1.21.1	2025-09-01T19:53:54.3888137	Arboretum/Tags for minecraft:block
+6ab6b3133a614d2e59be44762971183191be7ecc data\minecraft\tags\block\wooden_stairs.json
+25eef5049d94142cc142d38c172f6c73c5f0189b data\minecraft\tags\block\wooden_pressure_plates.json
+367d384fd456fc62de8f34edaf6bd354d981ea9c data\minecraft\tags\block\wooden_buttons.json
+7477d7ec2e869a2f5a2a5bade991e5cd1c8c1b20 data\minecraft\tags\block\leaves.json
+441e100f47789f2f1696f8135d47cad1e7477fe1 data\minecraft\tags\block\logs_that_burn.json
+9cc2e2d7b5e345b7787f8028673be72360230eae data\minecraft\tags\block\fence_gates.json
+3d6fc95d9a1f72205ede5a18197278170c014ab1 data\minecraft\tags\block\mineable\hoe.json
+a517d6a00cc41adc7d9a2b176f956ee1354eaa14 data\minecraft\tags\block\mineable\axe.json
+e4943c1bd387aa1bce7e5a8c99c98a76fcdf45b5 data\minecraft\tags\block\wooden_slabs.json
+d3a479b8228337e4322d1f930411858bb2bb5667 data\minecraft\tags\block\wooden_doors.json
 a92ee7184d2aeca9c8c2a4773593a3c4c27fe344 data\minecraft\tags\block\saplings.json
-63e79ff8acd64d1668f551ccb6c2450fc21e5beb data\minecraft\tags\block\wooden_trapdoors.json
-48e043e8a84299fc10b6b4089f719fb22bf34e01 data\minecraft\tags\block\wooden_fences.json
-68a78c52a8301779c05acc46243d844c409c62f7 data\minecraft\tags\block\planks.json
+b54d9b247ef016f0f1c263f0c95633c313349619 data\minecraft\tags\block\wooden_trapdoors.json
+0c8c8963f4f47e0024326eef37bc24b673a9ec9a data\minecraft\tags\block\wooden_fences.json
+677e24bb4ff88564d67292d7fe7b0ce85eec9709 data\minecraft\tags\block\planks.json

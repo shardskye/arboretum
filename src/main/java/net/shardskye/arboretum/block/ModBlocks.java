@@ -238,6 +238,117 @@ public class ModBlocks {
     public static final Block CEDAR_PRESSURE_PLATE = registerBlock("cedar_pressure_plate",
             new PressurePlateBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(Blocks.OAK_PRESSURE_PLATE)));
 
+    // MPINGO
+
+    public static final Block MPINGO_LOG = registerBlock("mpingo_log",
+            new PillarBlock(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.BROWN)
+                    .instrument(NoteBlockInstrument.BASS)
+                    .strength(2.0F, 3.0F)
+                    .sounds(BlockSoundGroup.WOOD)
+                    .burnable()));
+    public static final Block MPINGO_WOOD = registerBlock("mpingo_wood",
+            new PillarBlock(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.BROWN)
+                    .instrument(NoteBlockInstrument.BASS)
+                    .strength(2.0F, 3.0F)
+                    .sounds(BlockSoundGroup.WOOD)
+                    .burnable()));
+    public static final Block STRIPPED_MPINGO_LOG = registerBlock("stripped_mpingo_log",
+            new PillarBlock(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.BLACK)
+                    .instrument(NoteBlockInstrument.BASS)
+                    .strength(2.0F, 3.0F)
+                    .sounds(BlockSoundGroup.WOOD)
+                    .burnable()));
+    public static final Block STRIPPED_MPINGO_WOOD = registerBlock("stripped_mpingo_wood",
+            new PillarBlock(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.BLACK)
+                    .instrument(NoteBlockInstrument.BASS)
+                    .strength(2.0F, 3.0F)
+                    .sounds(BlockSoundGroup.WOOD)
+                    .burnable()));
+
+    public static final Block MPINGO_LEAVES = registerBlock("mpingo_leaves",
+            new LeavesBlock(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.PALE_GREEN)
+                    .strength(0.2F)
+                    .ticksRandomly()
+                    .sounds(BlockSoundGroup.GRASS)
+                    .nonOpaque()
+                    .allowsSpawning(Blocks::canSpawnOnLeaves)
+                    .suffocates(Blocks::never)
+                    .blockVision(Blocks::never)
+                    .burnable()
+                    .pistonBehavior(PistonBehavior.DESTROY)
+                    .solidBlock(Blocks::never)));
+    /*public static final Block MPINGO_SAPLING = registerBlock("mpingo_sapling",
+            new SaplingBlock(ModSaplingGenerators.MPINGO, AbstractBlock.Settings.create()
+                    .mapColor(MapColor.BROWN)
+                    .noCollision()
+                    .ticksRandomly()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.GRASS)
+                    .pistonBehavior(PistonBehavior.DESTROY)));*/
+
+    public static final Block MPINGO_PLANKS = registerBlock("mpingo_planks",
+            new Block(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.BLACK)
+                    .instrument(NoteBlockInstrument.BASS)
+                    .strength(2.0F, 3.0F)
+                    .sounds(BlockSoundGroup.WOOD)
+                    .burnable()));
+    public static final Block MPINGO_STAIRS = registerBlock("mpingo_stairs",
+            new StairsBlock(ModBlocks.CEDAR_PLANKS.getDefaultState(),
+                    AbstractBlock.Settings.create()
+                            .mapColor(MapColor.BLACK)
+                            .instrument(NoteBlockInstrument.BASS)
+                            .strength(2.0F, 3.0F)
+                            .sounds(BlockSoundGroup.WOOD)
+                            .burnable()));
+    public static final Block MPINGO_SLAB = registerBlock("mpingo_slab",
+            new SlabBlock(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.BLACK)
+                    .instrument(NoteBlockInstrument.BASS)
+                    .strength(2.0F, 3.0F)
+                    .sounds(BlockSoundGroup.WOOD)
+                    .burnable()));
+
+    public static final Block MPINGO_FENCE = registerBlock("mpingo_fence",
+            new FenceBlock(AbstractBlock.Settings.create()
+                    .mapColor(MapColor.BLACK)
+                    .instrument(NoteBlockInstrument.BASS)
+                    .strength(2.0F, 3.0F)
+                    .sounds(BlockSoundGroup.WOOD)
+                    .burnable()));
+    public static final Block MPINGO_FENCE_GATE = registerBlock("mpingo_fence_gate",
+            new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.create()
+                    .mapColor(MapColor.BLACK)
+                    .instrument(NoteBlockInstrument.BASS)
+                    .strength(2.0F, 3.0F)
+                    .sounds(BlockSoundGroup.WOOD)
+                    .burnable()));
+
+    public static final Block MPINGO_DOOR = registerBlock("mpingo_door",
+            new DoorBlock(BlockSetType.OAK, AbstractBlock.Settings.create()
+                    .mapColor(MapColor.BLACK)
+                    .instrument(NoteBlockInstrument.BASS)
+                    .strength(2.0F, 3.0F)
+                    .sounds(BlockSoundGroup.WOOD)
+                    .burnable()));
+    public static final Block MPINGO_TRAPDOOR = registerBlock("mpingo_trapdoor",
+            new TrapdoorBlock(BlockSetType.OAK, AbstractBlock.Settings.create()
+                    .mapColor(MapColor.BLACK)
+                    .instrument(NoteBlockInstrument.BASS)
+                    .strength(2.0F, 3.0F)
+                    .sounds(BlockSoundGroup.WOOD)
+                    .burnable()));
+
+    public static final Block MPINGO_BUTTON = registerBlock("mpingo_button",
+            new ButtonBlock(BlockSetType.OAK, 10, AbstractBlock.Settings.copy(Blocks.OAK_BUTTON)));
+    public static final Block MPINGO_PRESSURE_PLATE = registerBlock("mpingo_pressure_plate",
+            new PressurePlateBlock(BlockSetType.OAK, AbstractBlock.Settings.copy(Blocks.OAK_PRESSURE_PLATE)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(Arboretum.MOD_ID, name), block);
@@ -256,11 +367,14 @@ public class ModBlocks {
             fabricItemGroupEntries.add(ModBlocks.CEDAR_WOOD);
             fabricItemGroupEntries.add(ModBlocks.CHESTNUT_LOG);
             fabricItemGroupEntries.add(ModBlocks.CHESTNUT_WOOD);
+            fabricItemGroupEntries.add(ModBlocks.MPINGO_LOG);
+            fabricItemGroupEntries.add(ModBlocks.MPINGO_WOOD);
             fabricItemGroupEntries.add(ModBlocks.CEDAR_LEAVES);
             fabricItemGroupEntries.add(ModBlocks.CHESTNUT_LEAVES);
-            fabricItemGroupEntries.add(ModBlocks.CEDAR_LEAVES);
+            fabricItemGroupEntries.add(ModBlocks.MPINGO_LEAVES);
             fabricItemGroupEntries.add(ModBlocks.CEDAR_SAPLING);
             fabricItemGroupEntries.add(ModBlocks.CHESTNUT_SAPLING);
+            //fabricItemGroupEntries.add(ModBlocks.MPINGO_SAPLING);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
@@ -290,6 +404,19 @@ public class ModBlocks {
             fabricItemGroupEntries.add(ModBlocks.CHESTNUT_TRAPDOOR);
             fabricItemGroupEntries.add(ModBlocks.CHESTNUT_PRESSURE_PLATE);
             fabricItemGroupEntries.add(ModBlocks.CHESTNUT_BUTTON);
+            fabricItemGroupEntries.add(ModBlocks.MPINGO_LOG);
+            fabricItemGroupEntries.add(ModBlocks.MPINGO_WOOD);
+            fabricItemGroupEntries.add(ModBlocks.STRIPPED_MPINGO_LOG);
+            fabricItemGroupEntries.add(ModBlocks.STRIPPED_MPINGO_WOOD);
+            fabricItemGroupEntries.add(ModBlocks.MPINGO_PLANKS);
+            fabricItemGroupEntries.add(ModBlocks.MPINGO_STAIRS);
+            fabricItemGroupEntries.add(ModBlocks.MPINGO_SLAB);
+            fabricItemGroupEntries.add(ModBlocks.MPINGO_FENCE);
+            fabricItemGroupEntries.add(ModBlocks.MPINGO_FENCE_GATE);
+            fabricItemGroupEntries.add(ModBlocks.MPINGO_DOOR);
+            fabricItemGroupEntries.add(ModBlocks.MPINGO_TRAPDOOR);
+            fabricItemGroupEntries.add(ModBlocks.MPINGO_PRESSURE_PLATE);
+            fabricItemGroupEntries.add(ModBlocks.MPINGO_BUTTON);
         });
     }
 }

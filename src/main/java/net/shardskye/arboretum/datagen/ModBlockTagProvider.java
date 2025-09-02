@@ -23,46 +23,61 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CEDAR_LOG)
                 .add(ModBlocks.STRIPPED_CEDAR_LOG)
                 .add(ModBlocks.CEDAR_WOOD)
-                .add(ModBlocks.STRIPPED_CEDAR_WOOD);
+                .add(ModBlocks.STRIPPED_CEDAR_WOOD)
+                .add(ModBlocks.MPINGO_LOG)
+                .add(ModBlocks.STRIPPED_MPINGO_LOG)
+                .add(ModBlocks.MPINGO_WOOD)
+                .add(ModBlocks.STRIPPED_MPINGO_WOOD);
 
         getOrCreateTagBuilder(BlockTags.PLANKS)
                 .add(ModBlocks.CHESTNUT_PLANKS)
+                .add(ModBlocks.MPINGO_PLANKS)
                 .add(ModBlocks.CEDAR_PLANKS);
         getOrCreateTagBuilder(BlockTags.WOODEN_STAIRS)
                 .add(ModBlocks.CEDAR_STAIRS)
+                .add(ModBlocks.MPINGO_STAIRS)
                 .add(ModBlocks.CHESTNUT_STAIRS);
         getOrCreateTagBuilder(BlockTags.WOODEN_SLABS)
                 .add(ModBlocks.CHESTNUT_SLAB)
+                .add(ModBlocks.MPINGO_SLAB)
                 .add(ModBlocks.CEDAR_SLAB);
 
         getOrCreateTagBuilder(BlockTags.WOODEN_DOORS)
                 .add(ModBlocks.CEDAR_DOOR)
+                .add(ModBlocks.MPINGO_DOOR)
                 .add(ModBlocks.CHESTNUT_DOOR);
         getOrCreateTagBuilder(BlockTags.WOODEN_TRAPDOORS)
                 .add(ModBlocks.CEDAR_TRAPDOOR)
+                .add(ModBlocks.MPINGO_TRAPDOOR)
                 .add(ModBlocks.CHESTNUT_TRAPDOOR);
 
         getOrCreateTagBuilder(BlockTags.WOODEN_BUTTONS)
                 .add(ModBlocks.CEDAR_BUTTON)
+                .add(ModBlocks.MPINGO_BUTTON)
                 .add(ModBlocks.CHESTNUT_BUTTON);
         getOrCreateTagBuilder(BlockTags.WOODEN_PRESSURE_PLATES)
                 .add(ModBlocks.CHESTNUT_PRESSURE_PLATE)
+                .add(ModBlocks.MPINGO_PRESSURE_PLATE)
                 .add(ModBlocks.CEDAR_PRESSURE_PLATE);
 
         getOrCreateTagBuilder(BlockTags.WOODEN_FENCES)
                 .add(ModBlocks.CHESTNUT_FENCE)
-                .add(ModBlocks.CEDAR_FENCE);
+                .add(ModBlocks.CEDAR_FENCE)
+                .add(ModBlocks.MPINGO_FENCE);
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(ModBlocks.CHESTNUT_FENCE_GATE)
-                .add(ModBlocks.CEDAR_FENCE_GATE);
+                .add(ModBlocks.CEDAR_FENCE_GATE)
+                .add(ModBlocks.MPINGO_FENCE_GATE);
 
         getOrCreateTagBuilder(BlockTags.SAPLINGS)
                 .add(ModBlocks.CHESTNUT_SAPLING)
                 .add(ModBlocks.CEDAR_SAPLING);
+                //.add(ModBlocks.MPINGO_SAPLING);
 
         getOrCreateTagBuilder(BlockTags.LEAVES)
                 .add(ModBlocks.CEDAR_LEAVES)
-                .add(ModBlocks.CHESTNUT_LEAVES);
+                .add(ModBlocks.CHESTNUT_LEAVES)
+                .add(ModBlocks.MPINGO_LEAVES);
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .add(ModBlocks.CHESTNUT_PLANKS)
@@ -90,10 +105,24 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CEDAR_LOG)
                 .add(ModBlocks.STRIPPED_CEDAR_LOG)
                 .add(ModBlocks.CEDAR_WOOD)
-                .add(ModBlocks.STRIPPED_CEDAR_WOOD);
+                .add(ModBlocks.STRIPPED_CEDAR_WOOD)
+                .add(ModBlocks.MPINGO_PLANKS)
+                .add(ModBlocks.MPINGO_STAIRS)
+                .add(ModBlocks.MPINGO_SLAB)
+                .add(ModBlocks.MPINGO_FENCE)
+                .add(ModBlocks.MPINGO_FENCE_GATE)
+                .add(ModBlocks.MPINGO_PRESSURE_PLATE)
+                .add(ModBlocks.MPINGO_BUTTON)
+                .add(ModBlocks.MPINGO_DOOR)
+                .add(ModBlocks.MPINGO_TRAPDOOR)
+                .add(ModBlocks.MPINGO_LOG)
+                .add(ModBlocks.STRIPPED_MPINGO_LOG)
+                .add(ModBlocks.MPINGO_WOOD)
+                .add(ModBlocks.STRIPPED_MPINGO_WOOD);
 
         getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
                 .add(ModBlocks.CEDAR_LEAVES)
+                .add(ModBlocks.MPINGO_LEAVES)
                 .add(ModBlocks.CHESTNUT_LEAVES);
 
     }

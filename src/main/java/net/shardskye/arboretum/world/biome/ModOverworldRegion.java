@@ -34,12 +34,12 @@ public class ModOverworldRegion extends Region {
                 .build().forEach(point -> builder.add(point, ModBiomes.CEDAR_FOREST));
 
         new ParameterUtils.ParameterPointListBuilder()
-                .temperature(ParameterUtils.Temperature.span(ParameterUtils.Temperature.NEUTRAL, ParameterUtils.Temperature.COOL))
-                .humidity(ParameterUtils.Humidity.span(ParameterUtils.Humidity.NEUTRAL, ParameterUtils.Humidity.DRY))
-                .continentalness(ParameterUtils.Continentalness.INLAND)
-                .erosion(ParameterUtils.Erosion.EROSION_0, ParameterUtils.Erosion.EROSION_1)
+                .temperature(ParameterUtils.Temperature.span(ParameterUtils.Temperature.FROZEN, ParameterUtils.Temperature.COOL))
+                .humidity(ParameterUtils.Humidity.span(ParameterUtils.Humidity.ARID, ParameterUtils.Humidity.DRY))
+                .continentalness(ParameterUtils.Continentalness.FAR_INLAND)
+                .erosion(ParameterUtils.Erosion.EROSION_0, ParameterUtils.Erosion.EROSION_3)
                 .depth(ParameterUtils.Depth.SURFACE)
-                .weirdness(ParameterUtils.Weirdness.MID_SLICE_NORMAL_ASCENDING, ParameterUtils.Weirdness.MID_SLICE_NORMAL_DESCENDING)
+                .weirdness(ParameterUtils.Weirdness.LOW_SLICE_NORMAL_DESCENDING, ParameterUtils.Weirdness.LOW_SLICE_VARIANT_ASCENDING)
                 .build().forEach(point -> builder.add(point, ModBiomes.CHESTNUT_GROVE));
 
         builder.build().forEach(mapper);

@@ -48,6 +48,21 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CHESTNUT_TRAPDOOR);
                         entries.add(ModBlocks.CHESTNUT_BUTTON);
                         entries.add(ModBlocks.CHESTNUT_PRESSURE_PLATE);
+                        entries.add(ModBlocks.MPINGO_LOG);
+                        entries.add(ModBlocks.STRIPPED_MPINGO_LOG);
+                        entries.add(ModBlocks.MPINGO_WOOD);
+                        entries.add(ModBlocks.STRIPPED_MPINGO_WOOD);
+                        //entries.add(ModBlocks.MPINGO_SAPLING);
+                        entries.add(ModBlocks.MPINGO_LEAVES);
+                        entries.add(ModBlocks.MPINGO_PLANKS);
+                        entries.add(ModBlocks.MPINGO_STAIRS);
+                        entries.add(ModBlocks.MPINGO_SLAB);
+                        entries.add(ModBlocks.MPINGO_FENCE);
+                        entries.add(ModBlocks.MPINGO_FENCE_GATE);
+                        entries.add(ModBlocks.MPINGO_DOOR);
+                        entries.add(ModBlocks.MPINGO_TRAPDOOR);
+                        entries.add(ModBlocks.MPINGO_BUTTON);
+                        entries.add(ModBlocks.MPINGO_PRESSURE_PLATE);
                     }).build());
 
 
