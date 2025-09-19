@@ -79,7 +79,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_MPINGO_LOG).log(ModBlocks.STRIPPED_MPINGO_LOG).wood(ModBlocks.STRIPPED_MPINGO_WOOD);
 
         blockStateModelGenerator.registerSingleton(ModBlocks.MPINGO_LEAVES, TexturedModel.LEAVES);
-        //blockStateModelGenerator.registerTintableCross(ModBlocks.MPINGO_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerTintableCross(ModBlocks.MPINGO_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
 
     }
 

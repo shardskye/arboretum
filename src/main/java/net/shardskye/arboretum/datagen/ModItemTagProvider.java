@@ -36,8 +36,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(ItemTags.SAPLINGS)
                 .add(ModBlocks.CHESTNUT_SAPLING.asItem())
-                .add(ModBlocks.CEDAR_SAPLING.asItem());
-                //.add(ModBlocks.MPINGO_SAPLING.asItem());
+                .add(ModBlocks.CEDAR_SAPLING.asItem())
+                .add(ModBlocks.MPINGO_SAPLING.asItem());
 
         getOrCreateTagBuilder(ItemTags.LEAVES)
                 .add(ModBlocks.CEDAR_LEAVES.asItem())

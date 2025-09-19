@@ -1,4 +1,5 @@
-// 1.21.1	2025-09-01T19:53:54.3878128	Arboretum/Block Loot Tables
+// 1.21.1	2025-09-18T22:05:48.567327	Arboretum/Block Loot Tables
+beb3892acc6a2a60e475a7704570e366137b31c3 data\arboretum\loot_table\blocks\mpingo_sapling.json
 664e92ae688f2c3bbe910bfd1bab98ed0f1b0504 data\arboretum\loot_table\blocks\cedar_door.json
 8fdfc7108fe0304285a38f2de16c206dc1043696 data\arboretum\loot_table\blocks\cedar_trapdoor.json
 e67a538074ebdf40c3d100a7bfa17227446ad532 data\arboretum\loot_table\blocks\stripped_cedar_wood.json

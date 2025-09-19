@@ -52,7 +52,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STRIPPED_MPINGO_LOG);
                         entries.add(ModBlocks.MPINGO_WOOD);
                         entries.add(ModBlocks.STRIPPED_MPINGO_WOOD);
-                        //entries.add(ModBlocks.MPINGO_SAPLING);
+                        entries.add(ModBlocks.MPINGO_SAPLING);
                         entries.add(ModBlocks.MPINGO_LEAVES);
                         entries.add(ModBlocks.MPINGO_PLANKS);
                         entries.add(ModBlocks.MPINGO_STAIRS);

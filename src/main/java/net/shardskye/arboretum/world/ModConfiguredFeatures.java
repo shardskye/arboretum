@@ -1,25 +1,23 @@
 package net.shardskye.arboretum.world;
 
+import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.collection.DataPool;
 import net.minecraft.util.math.intprovider.ConstantIntProvider;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
+import net.minecraft.util.math.intprovider.WeightedListIntProvider;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.gen.chunk.BlockColumn;
 import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.feature.size.TwoLayersFeatureSize;
-import net.minecraft.world.gen.foliage.BlobFoliagePlacer;
-import net.minecraft.world.gen.foliage.LargeOakFoliagePlacer;
-import net.minecraft.world.gen.foliage.MegaPineFoliagePlacer;
-import net.minecraft.world.gen.foliage.SpruceFoliagePlacer;
+import net.minecraft.world.gen.foliage.*;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
-import net.minecraft.world.gen.trunk.GiantTrunkPlacer;
-import net.minecraft.world.gen.trunk.LargeOakTrunkPlacer;
-import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
+import net.minecraft.world.gen.trunk.*;
 import net.shardskye.arboretum.Arboretum;
 import net.shardskye.arboretum.block.ModBlocks;
 
@@ -31,6 +29,7 @@ public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> MEGA_CEDAR_KEY = registerKey("mega_cedar");
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> CHESTNUT_KEY = registerKey("chestnut");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> MPINGO_KEY = registerKey("mpingo");
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         register(context, CEDAR_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
@@ -59,6 +58,16 @@ public class ModConfiguredFeatures {
                 new LargeOakFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(4), 3),
 
                 new TwoLayersFeatureSize(0, 0, 0, OptionalInt.of(4))).ignoreVines()
+                .build());
+
+        register(context, MPINGO_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+                BlockStateProvider.of(ModBlocks.MPINGO_LOG),
+                new ForkingTrunkPlacer(4, 1, 3),
+
+                BlockStateProvider.of(ModBlocks.MPINGO_LEAVES),
+                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 1),
+
+                new TwoLayersFeatureSize(1, 0,2)).ignoreVines()
                 .build());
     }
 

@@ -71,8 +71,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.SAPLINGS)
                 .add(ModBlocks.CHESTNUT_SAPLING)
-                .add(ModBlocks.CEDAR_SAPLING);
-                //.add(ModBlocks.MPINGO_SAPLING);
+                .add(ModBlocks.CEDAR_SAPLING)
+                .add(ModBlocks.MPINGO_SAPLING);
 
         getOrCreateTagBuilder(BlockTags.LEAVES)
                 .add(ModBlocks.CEDAR_LEAVES)

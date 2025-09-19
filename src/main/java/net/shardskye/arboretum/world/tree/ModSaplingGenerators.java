@@ -12,4 +12,7 @@ public class ModSaplingGenerators {
 
     public static final SaplingGenerator CHESTNUT = new SaplingGenerator(Arboretum.MOD_ID + ":chestnut",
             Optional.empty(), Optional.of(ModConfiguredFeatures.CHESTNUT_KEY), Optional.empty());
+
+    public static final SaplingGenerator MPINGO = new SaplingGenerator(Arboretum.MOD_ID + ":chestnut",
+            Optional.empty(), Optional.of(ModConfiguredFeatures.MPINGO_KEY), Optional.empty());
 }

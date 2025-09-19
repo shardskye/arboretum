@@ -3,8 +3,6 @@ package net.shardskye.arboretum.world.biome.surface;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.world.gen.surfacebuilder.MaterialRules;
-import net.minecraft.world.gen.surfacebuilder.SurfaceBuilder;
-import terrablender.api.SurfaceRuleManager;
 
 public class ModSurfaceMaterialRules {
     private static final MaterialRules.MaterialRule DIRT = makeStateRule(Blocks.DIRT);

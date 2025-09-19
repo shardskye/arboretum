@@ -68,7 +68,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STRIPPED_MPINGO_WOOD);
 
         addDrop(ModBlocks.MPINGO_LEAVES, leavesDrops(ModBlocks.MPINGO_LEAVES, ModBlocks.CHESTNUT_SAPLING, 0.0625f));
-        //addDrop(ModBlocks.MPINGO_SAPLING);
+        addDrop(ModBlocks.MPINGO_SAPLING);
 
         addDrop(ModBlocks.MPINGO_PLANKS);
         addDrop(ModBlocks.MPINGO_STAIRS);
