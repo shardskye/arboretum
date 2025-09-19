@@ -27,6 +27,9 @@ public class Arboretum implements ModInitializer {
         StrippableBlockRegistry.register(ModBlocks.CEDAR_LOG, ModBlocks.STRIPPED_CEDAR_LOG);
         StrippableBlockRegistry.register(ModBlocks.CEDAR_WOOD, ModBlocks.STRIPPED_CEDAR_WOOD);
 
+		StrippableBlockRegistry.register(ModBlocks.MPINGO_LOG, ModBlocks.STRIPPED_MPINGO_LOG);
+		StrippableBlockRegistry.register(ModBlocks.MPINGO_WOOD, ModBlocks.STRIPPED_MPINGO_WOOD);
+
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CHESTNUT_LOG, 5, 5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_CHESTNUT_WOOD, 5, 5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_CHESTNUT_LOG, 5, 5);
@@ -39,6 +42,7 @@ public class Arboretum implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CHESTNUT_DOOR, 5, 5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CHESTNUT_TRAPDOOR, 5, 5);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CHESTNUT_BUTTON, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CHESTNUT_LEAVES, 5, 5);
 
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_LOG, 5, 5);
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_CEDAR_WOOD, 5, 5);
@@ -53,5 +57,21 @@ public class Arboretum implements ModInitializer {
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_DOOR, 5, 5);
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_TRAPDOOR, 5, 5);
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_BUTTON, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CEDAR_LEAVES, 5, 5);
+
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MPINGO_LOG, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_MPINGO_WOOD, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_MPINGO_LOG, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MPINGO_WOOD, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MPINGO_PLANKS, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MPINGO_STAIRS, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MPINGO_SLAB, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MPINGO_FENCE, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MPINGO_FENCE_GATE, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MPINGO_PRESSURE_PLATE, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MPINGO_DOOR, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MPINGO_TRAPDOOR, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MPINGO_BUTTON, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MPINGO_LEAVES, 5, 5);
 	}
 }
